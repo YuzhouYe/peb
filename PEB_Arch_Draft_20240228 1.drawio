@@ -1,0 +1,711 @@
+<mxfile host="app.diagrams.net" modified="2024-03-04T12:03:53.132Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0" etag="W_WPrEEhpdW4B_C8MNoZ" version="23.1.7" type="device" pages="3">
+  <diagram id="brTNwpQ7hu6vf1OdUqhb" name="Peb">
+    <mxGraphModel dx="5881" dy="3855" grid="1" gridSize="8" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2336" pageHeight="1654" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="6gFOrfBWYIW0xBij1Eg8-4" value="Ctrl_PEB" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontStyle=1;verticalAlign=top;fillColor=#b0e3e6;strokeColor=#0e8088;" parent="1" vertex="1">
+          <mxGeometry x="-3384" y="-3160" width="1528" height="712" as="geometry" />
+        </mxCell>
+        <mxCell id="DK03ZDnF-nGF3XkMDg5a-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="DK03ZDnF-nGF3XkMDg5a-1" target="6gFOrfBWYIW0xBij1Eg8-51" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DK03ZDnF-nGF3XkMDg5a-18" value="partial/emergency&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;brake trigger flag at each USS&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;Decelerate Vehivle Speed Flag&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;at each USS" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="DK03ZDnF-nGF3XkMDg5a-16" vertex="1" connectable="0">
+          <mxGeometry x="-0.2593" y="-1" relative="1" as="geometry">
+            <mxPoint x="24" y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DK03ZDnF-nGF3XkMDg5a-1" value="BrkTrgGenn (Braking Trigger Generation)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;align=left;verticalAlign=top;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="-3008" y="-3128" width="352" height="624" as="geometry" />
+        </mxCell>
+        <mxCell id="qnbpnjryCApMB7SqFd8M-1" value="HostDynamic" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;fontStyle=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="-4191" y="-3224.67" width="558" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="6gFOrfBWYIW0xBij1Eg8-31" value="SP_PEB (Signal Process)&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;align=left;verticalAlign=top;fontStyle=1;fillColor=#fad7ac;strokeColor=#b46504;shadow=0;" parent="1" vertex="1">
+          <mxGeometry x="-4416" y="-2885" width="1014" height="557" as="geometry" />
+        </mxCell>
+        <mxCell id="6gFOrfBWYIW0xBij1Eg8-1" value="ObstclDistCalc" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontStyle=1;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="-4132" y="-2684" width="710" height="185" as="geometry" />
+        </mxCell>
+        <mxCell id="6gFOrfBWYIW0xBij1Eg8-2" value="EgoVehDynFus (Ego Vehicle Dynamic Fusion)&lt;br&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;&lt;font style=&quot;font-weight: normal; font-size: 10px;&quot;&gt;(Could be carried over from MRR CVD)&lt;font style=&quot;font-size: 10px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/font&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;Correct ego vehicle speed with Cvd ego speed and obstacle estimated speed&lt;br&gt;USS Correction works below 5kph&lt;/font&gt;&lt;/span&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="-3993.75" y="-3204.67" width="338.5" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="qnbpnjryCApMB7SqFd8M-76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.011;entryY=0.929;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="6gFOrfBWYIW0xBij1Eg8-3" target="6gFOrfBWYIW0xBij1Eg8-59" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-2456.46" y="-2277.896" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6gFOrfBWYIW0xBij1Eg8-3" value="ASM_PEB&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontStyle=1;verticalAlign=top;fillColor=#d0cee2;strokeColor=#56517e;" parent="1" vertex="1">
+          <mxGeometry x="-4416" y="-2311.69" width="2560" height="159.38" as="geometry" />
+        </mxCell>
+        <mxCell id="DK03ZDnF-nGF3XkMDg5a-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1.002;exitY=0.719;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.55;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="6gFOrfBWYIW0xBij1Eg8-5" target="6gFOrfBWYIW0xBij1Eg8-3" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-4488" y="-2232" as="sourcePoint" />
+            <mxPoint x="-4424" y="-2224" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6gFOrfBWYIW0xBij1Eg8-5" value="Inly_PEB" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;fontStyle=1;fillColor=#eeeeee;strokeColor=#36393d;" parent="1" vertex="1">
+          <mxGeometry x="-4640" y="-2408" width="128" height="255.69" as="geometry" />
+        </mxCell>
+        <mxCell id="6gFOrfBWYIW0xBij1Eg8-6" value="VehInp" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-4632" y="-2256" width="104" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qnbpnjryCApMB7SqFd8M-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" parent="1" source="6gFOrfBWYIW0xBij1Eg8-7" target="6gFOrfBWYIW0xBij1Eg8-2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6gFOrfBWYIW0xBij1Eg8-7" value="&lt;b&gt;CvdFromWhl&amp;nbsp;&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;&amp;nbsp;(Current CVD)&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="-4167" y="-3198" width="140" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="wZnbwzRDfzG8uHcLlaxX-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" parent="1" source="6gFOrfBWYIW0xBij1Eg8-8" target="qnbpnjryCApMB7SqFd8M-21" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wZnbwzRDfzG8uHcLlaxX-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" parent="1" source="6gFOrfBWYIW0xBij1Eg8-8" target="qnbpnjryCApMB7SqFd8M-13" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6gFOrfBWYIW0xBij1Eg8-8" value="UssInp" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#eeeeee;strokeColor=#36393d;" parent="1" vertex="1">
+          <mxGeometry x="-4640" y="-2749" width="128" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="qnbpnjryCApMB7SqFd8M-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.002;entryY=0.329;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="6gFOrfBWYIW0xBij1Eg8-9" target="qnbpnjryCApMB7SqFd8M-13" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-4492" y="-3042" />
+              <mxPoint x="-4492" y="-3131" />
+              <mxPoint x="-4413" y="-3131" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qnbpnjryCApMB7SqFd8M-89" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="6gFOrfBWYIW0xBij1Eg8-9" target="qnbpnjryCApMB7SqFd8M-39" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-4492" y="-3042" />
+              <mxPoint x="-4492" y="-3018" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6gFOrfBWYIW0xBij1Eg8-9" value="FsppInp" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#eeeeee;strokeColor=#36393d;" parent="1" vertex="1">
+          <mxGeometry x="-4640" y="-3066" width="128" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="qnbpnjryCApMB7SqFd8M-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.001;entryY=0.929;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.994;exitY=0.163;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="6gFOrfBWYIW0xBij1Eg8-5" target="6gFOrfBWYIW0xBij1Eg8-31" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-4504" y="-2355" as="sourcePoint" />
+            <Array as="points" />
+            <mxPoint x="-4416" y="-2341" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6gFOrfBWYIW0xBij1Eg8-10" value="BswInp" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-4632" y="-2336" width="104" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="qnbpnjryCApMB7SqFd8M-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="6gFOrfBWYIW0xBij1Eg8-14" target="qnbpnjryCApMB7SqFd8M-52" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-3277" y="-2344" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qnbpnjryCApMB7SqFd8M-87" value="apa accel request" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="qnbpnjryCApMB7SqFd8M-44" vertex="1" connectable="0">
+          <mxGeometry x="0.8978" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qnbpnjryCApMB7SqFd8M-77" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.035;entryY=0.035;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="6gFOrfBWYIW0xBij1Eg8-14" target="6gFOrfBWYIW0xBij1Eg8-59" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-1784" y="-3252" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qnbpnjryCApMB7SqFd8M-86" value="apastate" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="qnbpnjryCApMB7SqFd8M-77" vertex="1" connectable="0">
+          <mxGeometry x="0.8905" y="-5" relative="1" as="geometry">
+            <mxPoint x="55" y="-6" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qnbpnjryCApMB7SqFd8M-85" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" parent="1" source="6gFOrfBWYIW0xBij1Eg8-14" target="6gFOrfBWYIW0xBij1Eg8-3" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-4442" y="-3252" />
+              <mxPoint x="-4442" y="-2272" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qnbpnjryCApMB7SqFd8M-88" value="apastate" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="qnbpnjryCApMB7SqFd8M-85" vertex="1" connectable="0">
+          <mxGeometry x="0.923" y="2" relative="1" as="geometry">
+            <mxPoint x="-32" y="-81" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6gFOrfBWYIW0xBij1Eg8-14" value="ApaInp" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#eeeeee;strokeColor=#36393d;" parent="1" vertex="1">
+          <mxGeometry x="-4640" y="-3279.67" width="128" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="qnbpnjryCApMB7SqFd8M-69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.38;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="6gFOrfBWYIW0xBij1Eg8-15" target="qnbpnjryCApMB7SqFd8M-52" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qnbpnjryCApMB7SqFd8M-78" value="DTC" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="qnbpnjryCApMB7SqFd8M-69" vertex="1" connectable="0">
+          <mxGeometry x="0.9086" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6gFOrfBWYIW0xBij1Eg8-15" value="SsiInp" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#eeeeee;strokeColor=#36393d;" parent="1" vertex="1">
+          <mxGeometry x="-4640" y="-2947" width="128" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="6gFOrfBWYIW0xBij1Eg8-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;" parent="1" source="6gFOrfBWYIW0xBij1Eg8-18" target="6gFOrfBWYIW0xBij1Eg8-26" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-3692" y="-2583" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6gFOrfBWYIW0xBij1Eg8-18" value="ObstclDistDecmpstn (Obstacle Distance Decomposition)&lt;br style=&quot;font-size: 11px;&quot;&gt;&lt;ul&gt;&lt;li&gt;&lt;font size=&quot;1&quot;&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;Decompose rear and front obstacle vector distance to longitudinal speed direction (vehicle center axle)&lt;/span&gt;&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font size=&quot;1&quot;&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;Side obstacle distance is assumed to be the lateral interval between obstacle and ego vehicle&lt;/span&gt;&lt;/font&gt;&lt;/li&gt;&lt;/ul&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="-3918" y="-2653" width="222" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="6gFOrfBWYIW0xBij1Eg8-26" value="ObstclDistCnfmn (Obstacle Distance Confirmantion)&lt;br&gt;&lt;ul style=&quot;font-size: 10px;&quot;&gt;&lt;li&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Front and rear obstacle distance confirmation by either multi-sensor distance or various distance from single sensor&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Critial distance determination&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="-3672" y="-2653" width="230" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="6gFOrfBWYIW0xBij1Eg8-32" value="LgtCRA (Longitudinal Collision Risk Assessment)&lt;br&gt;&lt;span style=&quot;background-color: initial; font-weight: normal;&quot;&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;USS mid, USS corner, SSI, FSD Lgt&lt;/font&gt;&lt;/span&gt;&lt;br&gt;&lt;ul&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;font-weight: normal; font-size: x-small; background-color: initial;&quot;&gt;Actuator delay compensation&lt;/span&gt;&lt;/li&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;font-weight: normal; font-size: x-small; background-color: initial;&quot;&gt;Braking trigger generation based on look-up threshold (①RAEB use the threshold when&lt;/span&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;OD not trigger as base;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/font&gt;&lt;font style=&quot;background-color: initial; font-size: 10px;&quot;&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;②The vehicle move distance in parking control should be considered,Both RSPA and APA use the rear threshold(RLC/RRC,RLM/RRM) as base, for comfortable brake,RSPA and APA have different threshold,for emerengy brake,RSPA and APA have the same threshold; ③For APA,&lt;/span&gt;&lt;/font&gt;&lt;font style=&quot;background-color: initial; border-color: var(--border-color); font-size: 10px; font-weight: normal;&quot;&gt;out parking slot and head in,larger threshold should be used; ④For APA,&lt;/font&gt;&lt;font style=&quot;background-color: initial; font-size: 10px; font-weight: normal;&quot;&gt;driver &lt;/font&gt;&lt;span style=&quot;background-color: initial; font-size: 10px; font-weight: 400;&quot;&gt;intervention&lt;/span&gt;&lt;span style=&quot;background-color: initial; font-size: 10px; font-weight: normal;&quot;&gt;&amp;nbsp;index based on brake pedal is pressed or not should be considered,it will add an offset threshold.)&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;align=left;verticalAlign=top;fontStyle=1;fillColor=#00FF00;" parent="1" vertex="1">
+          <mxGeometry x="-2982" y="-3093.25" width="291" height="226" as="geometry" />
+        </mxCell>
+        <mxCell id="6gFOrfBWYIW0xBij1Eg8-37" value="LatCRA (Lateral Collision Risk Assessment)&lt;br&gt;&lt;span style=&quot;background-color: initial; font-weight: normal;&quot;&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;USS corner, USS side, FSD lat&lt;/font&gt;&lt;/span&gt;&lt;br&gt;&lt;ul&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;font-weight: normal; font-size: x-small; background-color: initial;&quot;&gt;Actuator delay compensation&lt;/span&gt;&lt;/li&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;font-weight: normal; font-size: x-small; background-color: initial;&quot;&gt;Braking trigger generation based on look-up threshold (&lt;/span&gt;&lt;font style=&quot;font-size: 10px; font-weight: normal;&quot;&gt;①RAEB don&#39;t use side USS&lt;font style=&quot;background-color: initial; border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;border-color: var(--border-color);&quot;&gt;;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/font&gt;&lt;/font&gt;&lt;font style=&quot;background-color: initial; font-size: 10px; border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;border-color: var(--border-color); font-weight: normal;&quot;&gt;②Both RSPA and APA use the rear threshold(RLS/RRS,RLC/RRC) as base, for comfortable brake,RSPA and APA have different threshold,for emerengy brake,RSPA and APA have the same threshold; ③For APA,&lt;/span&gt;&lt;/font&gt;&lt;font style=&quot;background-color: initial; font-size: 10px; font-weight: normal; border-color: var(--border-color);&quot;&gt;out parking slot and head in,dirrerent threshold should be used; ④For APA,&amp;nbsp;&lt;/font&gt;&lt;font style=&quot;background-color: initial; font-size: 10px; font-weight: normal; border-color: var(--border-color);&quot;&gt;driver&amp;nbsp;&lt;/font&gt;&lt;span style=&quot;background-color: initial; font-size: 10px; font-weight: normal; border-color: var(--border-color);&quot;&gt;intervention&lt;/span&gt;&lt;span style=&quot;background-color: initial; font-size: 10px; font-weight: normal; border-color: var(--border-color);&quot;&gt;&amp;nbsp;index based on brake pedal is pressed or not should be considered, it will add an offset threshold.)&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;align=left;verticalAlign=top;fontStyle=1;fillColor=#00FF00;" parent="1" vertex="1">
+          <mxGeometry x="-2982" y="-2856" width="291" height="211" as="geometry" />
+        </mxCell>
+        <mxCell id="6gFOrfBWYIW0xBij1Eg8-51" value="BrkTrgSlctn (Braking Trigger Selection)&lt;br style=&quot;font-size: 11px;&quot;&gt;&lt;ul&gt;&lt;li&gt;&lt;font size=&quot;1&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Warning （reduce target control speed）&lt;/span&gt;&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font size=&quot;1&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Comfortable braking latch&lt;/span&gt;&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font size=&quot;1&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Comfortable and emergency braking arbitration&lt;/span&gt;&lt;/font&gt;&lt;/li&gt;&lt;/ul&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;align=left;verticalAlign=top;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="-2464" y="-3135" width="584" height="647" as="geometry" />
+        </mxCell>
+        <mxCell id="6gFOrfBWYIW0xBij1Eg8-59" value="Outly_PEB" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;fontStyle=1;fillColor=#eeeeee;strokeColor=#36393d;" parent="1" vertex="1">
+          <mxGeometry x="-1792" y="-3289" width="90" height="1137" as="geometry" />
+        </mxCell>
+        <mxCell id="qnbpnjryCApMB7SqFd8M-90" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.433;entryY=0.003;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="6gFOrfBWYIW0xBij1Eg8-19" target="6gFOrfBWYIW0xBij1Eg8-1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qnbpnjryCApMB7SqFd8M-92" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" parent="1" source="6gFOrfBWYIW0xBij1Eg8-19" target="qnbpnjryCApMB7SqFd8M-52" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6gFOrfBWYIW0xBij1Eg8-19" value="VehSpdDecmpstn (Vehicle Speed Decomposition）&lt;br&gt;&lt;span style=&quot;font-weight: normal; font-size: 10px;&quot;&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;Decompose ego vector speed to longitudial and lateral speeds based on Cvd yaw rate&lt;br&gt;Four lateral speeds need at four APA installation location.&lt;br&gt;Eight longitudinal speeds at 8 UPA installation location&lt;br&gt;&lt;/font&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;fontStyle=1;fillColor=#ffff88;strokeColor=#36393d;" parent="1" vertex="1">
+          <mxGeometry x="-4020.38" y="-3002" width="390.38" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="qnbpnjryCApMB7SqFd8M-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" parent="1" source="qnbpnjryCApMB7SqFd8M-13" target="6gFOrfBWYIW0xBij1Eg8-2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qnbpnjryCApMB7SqFd8M-31" value="Vehicle_Dynamic_USS" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="qnbpnjryCApMB7SqFd8M-30" vertex="1" connectable="0">
+          <mxGeometry x="0.0166" relative="1" as="geometry">
+            <mxPoint x="-7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qnbpnjryCApMB7SqFd8M-13" value="USSSpeedometer&lt;br style=&quot;border-color: var(--border-color); font-size: 11px;&quot;&gt;&lt;font style=&quot;border-color: var(--border-color); font-weight: normal;&quot; size=&quot;1&quot;&gt;Estimate host speed based on Uss distance and free space, works when host speed very low, may need to be map based.&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;fontStyle=1;fillColor=#e51400;strokeColor=#B20000;fontColor=#ffffff;" parent="1" vertex="1">
+          <mxGeometry x="-4413" y="-3164" width="191" height="99" as="geometry" />
+        </mxCell>
+        <mxCell id="6gFOrfBWYIW0xBij1Eg8-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="qnbpnjryCApMB7SqFd8M-27" target="6gFOrfBWYIW0xBij1Eg8-18" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-3897" y="-2592" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DK03ZDnF-nGF3XkMDg5a-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="qnbpnjryCApMB7SqFd8M-21" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-4132" y="-2596" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qnbpnjryCApMB7SqFd8M-21" value="USSUpdate&lt;br style=&quot;border-color: var(--border-color); font-size: 11px;&quot;&gt;&lt;font style=&quot;border-color: var(--border-color); font-weight: normal;&quot; size=&quot;1&quot;&gt;Calculation based on real USS input update.&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontStyle=1;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="-4392" y="-2847" width="230" height="503" as="geometry" />
+        </mxCell>
+        <mxCell id="6gFOrfBWYIW0xBij1Eg8-20" value="ObstclSpdEstim (Obstacle Speed Estimation)&lt;br style=&quot;border-color: var(--border-color); font-size: 11px;&quot;&gt;&lt;font style=&quot;border-color: var(--border-color); font-weight: normal;&quot; size=&quot;1&quot;&gt;Estimate obstacle speed (the change rate of uss distance) based on either Uss distance or free space raw distance&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="-4375.75" y="-2804" width="197.5" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="qnbpnjryCApMB7SqFd8M-24" value="ObstclAngEstim (Obstacle Angle Estimation)&lt;br style=&quot;border-color: var(--border-color); font-size: 11px;&quot;&gt;&lt;font style=&quot;border-color: var(--border-color); font-weight: normal;&quot; size=&quot;1&quot;&gt;Estimate obstacle angle to the sensor position based on Uss distance, also considering free space raw distance&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;fontStyle=1;fillColor=#FF9933;" parent="1" vertex="1">
+          <mxGeometry x="-4375.75" y="-2592.5" width="197.5" height="92.5" as="geometry" />
+        </mxCell>
+        <mxCell id="qnbpnjryCApMB7SqFd8M-27" value="ObstclDistPrdct (Obstacle Distance Prediction)&lt;br style=&quot;border-color: var(--border-color); font-size: 11px;&quot;&gt;&lt;font style=&quot;border-color: var(--border-color); font-weight: normal;&quot; size=&quot;1&quot;&gt;Predict the distance between USS to the Obstacle based on corrected vehicle speed&amp;nbsp;and either USS current min distance&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;fontStyle=1;fillColor=#00FF00;" parent="1" vertex="1">
+          <mxGeometry x="-4112" y="-2653" width="170" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="qnbpnjryCApMB7SqFd8M-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.008;entryY=0.12;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="qnbpnjryCApMB7SqFd8M-39" target="qnbpnjryCApMB7SqFd8M-52" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-3328" y="-3020" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qnbpnjryCApMB7SqFd8M-58" value="DTC(Lgt/Lat)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="qnbpnjryCApMB7SqFd8M-55" vertex="1" connectable="0">
+          <mxGeometry x="-0.035" y="-2" relative="1" as="geometry">
+            <mxPoint x="108" y="-2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qnbpnjryCApMB7SqFd8M-79" value="DTC(Lgt/Lat)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="qnbpnjryCApMB7SqFd8M-55" vertex="1" connectable="0">
+          <mxGeometry x="0.1496" y="-1" relative="1" as="geometry">
+            <mxPoint x="-8" y="-4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qnbpnjryCApMB7SqFd8M-39" value="FreeSpaceDistCal&lt;br style=&quot;border-color: var(--border-color); font-size: 11px;&quot;&gt;&lt;font style=&quot;border-color: var(--border-color); font-weight: normal;&quot; size=&quot;1&quot;&gt;Calculate Distance To Collision based on FreeSpace input&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;fontStyle=1;fillColor=#fad9d5;strokeColor=#ae4132;" parent="1" vertex="1">
+          <mxGeometry x="-3583" y="-3053" width="165" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="ImhHq9Dhjgw5vNVkbMt_-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="qnbpnjryCApMB7SqFd8M-52" target="6gFOrfBWYIW0xBij1Eg8-37" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ImhHq9Dhjgw5vNVkbMt_-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="qnbpnjryCApMB7SqFd8M-52" target="6gFOrfBWYIW0xBij1Eg8-32" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ImhHq9Dhjgw5vNVkbMt_-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="qnbpnjryCApMB7SqFd8M-52" target="ImhHq9Dhjgw5vNVkbMt_-3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qnbpnjryCApMB7SqFd8M-52" value="Preprocessing" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;align=left;verticalAlign=top;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="-3325" y="-3068" width="303" height="391" as="geometry" />
+        </mxCell>
+        <mxCell id="qnbpnjryCApMB7SqFd8M-49" value="DtcCompensation&lt;br&gt;&lt;font style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 10px; font-weight: normal;&quot;&gt;Compensate the &lt;/span&gt;&lt;span style=&quot;font-size: 10px; font-weight: 400;&quot;&gt;distance&lt;/span&gt;&lt;span style=&quot;font-size: 10px; font-weight: normal;&quot;&gt;&amp;nbsp;to collision calculated from USS, FSD and SSI based on the perception performance.&lt;/span&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;align=left;verticalAlign=top;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="-3300" y="-2929" width="242" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="qnbpnjryCApMB7SqFd8M-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="qnbpnjryCApMB7SqFd8M-50" target="qnbpnjryCApMB7SqFd8M-49" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qnbpnjryCApMB7SqFd8M-53" value="Selected Strategy" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="qnbpnjryCApMB7SqFd8M-51" vertex="1" connectable="0">
+          <mxGeometry x="-0.0505" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qnbpnjryCApMB7SqFd8M-83" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="qnbpnjryCApMB7SqFd8M-50" target="qnbpnjryCApMB7SqFd8M-57" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qnbpnjryCApMB7SqFd8M-50" value="DTCArbitration&lt;br&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;Arbitration for different source based on the predefined area/strategy.&lt;/font&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;align=left;verticalAlign=top;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="-3300" y="-3027" width="242" height="63" as="geometry" />
+        </mxCell>
+        <mxCell id="qnbpnjryCApMB7SqFd8M-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="6gFOrfBWYIW0xBij1Eg8-2" target="6gFOrfBWYIW0xBij1Eg8-19" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qnbpnjryCApMB7SqFd8M-41" value="Vehicle_Dynamic_Fusion" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="qnbpnjryCApMB7SqFd8M-40" vertex="1" connectable="0">
+          <mxGeometry x="0.5104" y="1" relative="1" as="geometry">
+            <mxPoint x="416" y="-201" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qnbpnjryCApMB7SqFd8M-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="6gFOrfBWYIW0xBij1Eg8-2" target="qnbpnjryCApMB7SqFd8M-39" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qnbpnjryCApMB7SqFd8M-57" value="ConfigUpdate&lt;br style=&quot;border-color: var(--border-color); font-size: 11px;&quot;&gt;&lt;font size=&quot;1&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;1. Calibrated threshold is determined when APA acceleration request is 0.&amp;nbsp; For other scenario, threshold will be adjusted for vehicle response difference.&lt;br&gt;2. When USS change rate remain very low. Change the thresold: only when distance is close to blind spot, brake can be triggered.&lt;br&gt;&lt;/span&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;align=left;verticalAlign=top;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="-3300" y="-2834" width="242" height="137" as="geometry" />
+        </mxCell>
+        <mxCell id="qnbpnjryCApMB7SqFd8M-93" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="6gFOrfBWYIW0xBij1Eg8-20" target="qnbpnjryCApMB7SqFd8M-57" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-4144" y="-2762" />
+              <mxPoint x="-4144" y="-2765" />
+            </Array>
+            <mxPoint x="-3328" y="-2776" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wZnbwzRDfzG8uHcLlaxX-4" value="USS change rate &lt;br&gt;to suppress brake" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="qnbpnjryCApMB7SqFd8M-93" vertex="1" connectable="0">
+          <mxGeometry x="0.8406" y="2" relative="1" as="geometry">
+            <mxPoint x="-135" y="2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rwOOpLvp1Qztma8xH0jr-1" value="UsrBrkStMac (User Brake/PEB state machine)&lt;br&gt;&lt;font style=&quot;font-size: 10px; font-weight: normal;&quot;&gt;Control the final output of peb function&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="-3142" y="-2280" width="280" height="96" as="geometry" />
+        </mxCell>
+        <mxCell id="rwOOpLvp1Qztma8xH0jr-2" value="SysBrkStMac(system brake(APA/RPA) state machine)&lt;br&gt;&lt;font style=&quot;font-size: 10px; font-weight: normal;&quot;&gt;Control the final output of peb function&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="-2320" y="-2285" width="320" height="88" as="geometry" />
+        </mxCell>
+        <mxCell id="W6Z5j2WY_y2KLhaCqTHu-1" value="ObstclSpdDecmpstn (Obstacle Speed Decomposition)&lt;br style=&quot;border-color: var(--border-color); font-size: 11px;&quot;&gt;&lt;font style=&quot;border-color: var(--border-color); font-weight: normal;&quot; size=&quot;1&quot;&gt;Estimate obstacle lateral speed based on vehicle speed and steer angle &lt;i&gt;(use it to get a distance threshold,then compare with&amp;nbsp;&lt;/i&gt;&lt;i style=&quot;border-color: var(--border-color);&quot;&gt;the current side USS min distance to j&lt;/i&gt;&lt;i&gt;udge whether there is&amp;nbsp;&lt;/i&gt;collision&lt;i&gt;&amp;nbsp;risk or not)&amp;nbsp;&lt;/i&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;fontStyle=1;fillColor=#00FF00;" parent="1" vertex="1">
+          <mxGeometry x="-4375.75" y="-2712" width="197.5" height="111.5" as="geometry" />
+        </mxCell>
+        <mxCell id="W6Z5j2WY_y2KLhaCqTHu-2" value="MinDistVerify(USS min distance Verify)&lt;br&gt;&lt;ul&gt;&lt;li&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;&lt;font style=&quot;font-weight: normal;&quot;&gt;Min Dista&lt;/font&gt;&lt;font style=&quot;font-weight: normal;&quot;&gt;nce Verify By PDC: ① IF UPA is&amp;nbsp;triangulation-location, use OD trigger flag repalce PDC;② IF UPA is not triangulation-location, the min&amp;nbsp;&lt;/font&gt;&lt;font style=&quot;font-weight: normal;&quot;&gt;distance only can be reliable when it is in the range based on PDC.&lt;/font&gt;&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;&lt;font style=&quot;font-weight: normal;&quot;&gt;Min Distance Verify By History:(Reserved)&amp;nbsp;&lt;/font&gt;&lt;br&gt;&lt;/font&gt;&lt;/li&gt;&lt;font size=&quot;3&quot; style=&quot;border-color: var(--border-color);&quot;&gt;&lt;/font&gt;&lt;/ul&gt;&lt;font size=&quot;3&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;font style=&quot;border-color: var(--border-color);&quot;&gt;&lt;font size=&quot;3&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;fontStyle=1;fillColor=#00FF00;" parent="1" vertex="1">
+          <mxGeometry x="-4375.75" y="-2488" width="199.75" height="136" as="geometry" />
+        </mxCell>
+        <mxCell id="ImhHq9Dhjgw5vNVkbMt_-3" value="DecSpd (Decelerate Vehivle Speed)&lt;br&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;USS middle,&lt;/span&gt;&amp;nbsp;&lt;span style=&quot;background-color: initial; font-weight: normal;&quot;&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;USS corner, USS side&lt;/font&gt;&lt;/span&gt;&lt;br&gt;&lt;ul&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;&lt;font size=&quot;1&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;When the distance between obstacle and ego vehicle is lower than a threshold&amp;nbsp;(this threshold is based on APA comfortable brake threshold), should decelerate the vehicle speed to avoid the possible emergency brake.&lt;/span&gt;&lt;/font&gt;&lt;/li&gt;&lt;/ul&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;align=left;verticalAlign=top;fontStyle=1;fillColor=#00FF00;" parent="1" vertex="1">
+          <mxGeometry x="-2982" y="-2632" width="291" height="112.5" as="geometry" />
+        </mxCell>
+        <mxCell id="ImhHq9Dhjgw5vNVkbMt_-8" value="RAEB&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;font style=&quot;border-color: var(--border-color); font-size: 10px; font-weight: normal;&quot;&gt;Non-parking condition, Select PEB brake strategy based on vehicle speed, send out RAEB_BrakingReq.&lt;/font&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;ul style=&quot;border-color: var(--border-color);&quot;&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;&lt;font style=&quot;border-color: var(--border-color); font-size: 10px; font-weight: normal;&quot;&gt;v&amp;lt;=6kph,if OD not trigger, use USS only; if OD trigger, USS use a lager trigger threshold(base on the trigger threshold when OD not trigger, add an offset)&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;&lt;font style=&quot;border-color: var(--border-color); font-size: 10px; font-weight: normal;&quot;&gt;v&amp;gt;6kph,use OD only.&lt;/font&gt;&lt;/li&gt;&lt;/ul&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;align=left;verticalAlign=top;fontStyle=1;fillColor=#00FF00;" parent="1" vertex="1">
+          <mxGeometry x="-2130" y="-3054.75" width="226" height="158.75" as="geometry" />
+        </mxCell>
+        <mxCell id="DK03ZDnF-nGF3XkMDg5a-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="DK03ZDnF-nGF3XkMDg5a-19" target="DK03ZDnF-nGF3XkMDg5a-24" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DK03ZDnF-nGF3XkMDg5a-19" value="PrkgPtlBrk(Parking Partial Brake)&lt;div&gt;&lt;ul style=&quot;border-color: var(--border-color);&quot;&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;&lt;font style=&quot;&quot; size=&quot;1&quot;&gt;Rear and front partial brake have the same deal way as following(use rear as example):&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;&lt;font style=&quot;&quot; size=&quot;1&quot;&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;Check the distance, vehicle speed and&amp;nbsp;&lt;/span&gt;&lt;font style=&quot;font-weight: normal; border-color: var(--border-color); background-color: initial; font-size: 10px;&quot;&gt;driver&amp;nbsp;&lt;/font&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;intervention&lt;/span&gt;&lt;span style=&quot;font-weight: normal; border-color: var(--border-color); background-color: initial; font-size: 10px;&quot;&gt;&amp;nbsp;index&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;when any of RLC/RLM/RRM/RRC partial brake trigger, if they smaller or larger than a certain &lt;/span&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;value&lt;/span&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;,&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;the brake flag should be &lt;/span&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;latched&lt;/span&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;, otherwise, it will release if not &lt;/span&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;fulfill&lt;/span&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;&amp;nbsp;the trigger threshold.&amp;nbsp;&lt;/span&gt;&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;&lt;font style=&quot;font-size: 10px; font-weight: normal;&quot;&gt;For RLS/RRS/FLS/FRS, check the distance and&amp;nbsp;&lt;font style=&quot;border-color: var(--border-color); background-color: initial;&quot;&gt;d&lt;/font&gt;&lt;/font&gt;&lt;font style=&quot;border-color: var(--border-color); font-size: 10px; font-weight: 400; background-color: initial;&quot;&gt;river&amp;nbsp;&lt;/font&gt;&lt;span style=&quot;font-size: x-small; font-weight: 400;&quot;&gt;intervention&lt;/span&gt;&lt;span style=&quot;border-color: var(--border-color); font-size: 10px; font-weight: 400; background-color: initial;&quot;&gt;&amp;nbsp;index&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size: x-small; font-weight: 400;&quot;&gt;when which one trigger partial brake,&amp;nbsp;&lt;/span&gt;&lt;font style=&quot;font-size: 10px; font-weight: normal;&quot;&gt;&amp;nbsp;if they smaller or larger than a certain&amp;nbsp;value&lt;span style=&quot;border-color: var(--border-color);&quot;&gt;,&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;border-color: var(--border-color);&quot;&gt;the brake flag should be&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;border-color: var(--border-color);&quot;&gt;latched&lt;/span&gt;&lt;span style=&quot;border-color: var(--border-color);&quot;&gt;, otherwise, it will release if not&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;border-color: var(--border-color);&quot;&gt;fulfill&lt;/span&gt;&lt;span style=&quot;border-color: var(--border-color);&quot;&gt;&amp;nbsp;the trigger threshold.&amp;nbsp;&lt;/span&gt;&lt;/font&gt;&lt;br&gt;&lt;/li&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;font-size: 10px; font-weight: 400;&quot;&gt;During rear partial brake flag is latched, if gear turn to D OR parking state exit OR APA state turn&amp;nbsp;from 13-replaning to 3-control,&amp;nbsp;&lt;/span&gt;&lt;font style=&quot;font-size: 10px; font-weight: normal;&quot;&gt;rear partial brake flag should be released.&lt;/font&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;align=left;verticalAlign=top;fontStyle=1;fillColor=#00FF00;" parent="1" vertex="1">
+          <mxGeometry x="-2446" y="-3053" width="258" height="298.75" as="geometry" />
+        </mxCell>
+        <mxCell id="DK03ZDnF-nGF3XkMDg5a-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="DK03ZDnF-nGF3XkMDg5a-20" target="DK03ZDnF-nGF3XkMDg5a-24" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DK03ZDnF-nGF3XkMDg5a-20" value="PrkgEmgyBrk(Parking Emergency Brake)&lt;div&gt;&lt;ul style=&quot;border-color: var(--border-color);&quot;&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;&lt;font style=&quot;border-color: var(--border-color);&quot; size=&quot;1&quot;&gt;Rear and front emergency brake have the same deal way as following(use rear as example):&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;&lt;font size=&quot;1&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;For RLC/RLM/RRM/RRC, if rear partial brake has triggered,&amp;nbsp;and APA accelerate&amp;nbsp;speed is lower than -0.3m/s^2 and vehicle speed is lower than 1.25kph, the emergency brake should be suppressed.&lt;/span&gt;&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;&lt;font style=&quot;border-color: var(--border-color); font-size: 10px; font-weight: normal;&quot;&gt;For RLS/RRS/FLS/FRS, each of them trigger, the rear emergency brake should be latched.&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;&lt;font style=&quot;font-size: 10px; font-weight: normal;&quot;&gt;During rear emergency brake flag is latched, if gear turn to D OR parking state exit OR APA state turn&amp;nbsp;from 13-replaning to 3-control,&amp;nbsp;&lt;font style=&quot;border-color: var(--border-color);&quot;&gt;rear emergency&amp;nbsp;brake flag should be released.&lt;/font&gt;&lt;/font&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;align=left;verticalAlign=top;fontStyle=1;fillColor=#00FF00;" parent="1" vertex="1">
+          <mxGeometry x="-2444" y="-2742.51" width="256" height="239.01" as="geometry" />
+        </mxCell>
+        <mxCell id="DK03ZDnF-nGF3XkMDg5a-24" value="BrkTrgSigOutpt(Brake Trigger Signal Output)&lt;div&gt;&lt;ul style=&quot;border-color: var(--border-color);&quot;&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;&lt;font style=&quot;font-size: 10px; font-weight: normal;&quot;&gt;Parking condition, Use a CAL to select OD or USS or Freespace brake strategy, then output brake trigger signal to APA(PEBTrigFlgtoAPA).&lt;/font&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;align=left;verticalAlign=top;fontStyle=1;fillColor=#00FF00;" parent="1" vertex="1">
+          <mxGeometry x="-2128" y="-2800.5" width="224" height="112.5" as="geometry" />
+        </mxCell>
+        <mxCell id="DK03ZDnF-nGF3XkMDg5a-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="6gFOrfBWYIW0xBij1Eg8-51" target="6gFOrfBWYIW0xBij1Eg8-51" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DK03ZDnF-nGF3XkMDg5a-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" target="rwOOpLvp1Qztma8xH0jr-2" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-2528" y="-2310.857177734375" as="targetPoint" />
+            <mxPoint x="-2160" y="-2445" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="-2160" y="-2445" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DK03ZDnF-nGF3XkMDg5a-35" value="PEBTrigFlgtoAPA" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="DK03ZDnF-nGF3XkMDg5a-32" vertex="1" connectable="0">
+          <mxGeometry x="-0.4177" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DK03ZDnF-nGF3XkMDg5a-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="6gFOrfBWYIW0xBij1Eg8-4" target="rwOOpLvp1Qztma8xH0jr-1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DK03ZDnF-nGF3XkMDg5a-39" value="RAEB_BrakingReq" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="DK03ZDnF-nGF3XkMDg5a-38" vertex="1" connectable="0">
+          <mxGeometry x="-0.3684" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="40WfoROAz2ySgzRMMbSW-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.006;entryY=0.942;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="6gFOrfBWYIW0xBij1Eg8-31" target="qnbpnjryCApMB7SqFd8M-52" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="40WfoROAz2ySgzRMMbSW-3" value="DTC(Lgt/Lat)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="40WfoROAz2ySgzRMMbSW-2" vertex="1" connectable="0">
+          <mxGeometry x="-0.1173" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="kLGaE1WFjXEjOA_Qck6Q" name="Realization">
+    <mxGraphModel dx="2863" dy="1716" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="zv5PgB1zrB0ypbQxWfDP-1" value="HostDynamic" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="-1189" y="-1100.67" width="558" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="zv5PgB1zrB0ypbQxWfDP-2" value="SP_PEB (Signal Process)&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;align=left;verticalAlign=top;fontStyle=1;shadow=0;" parent="1" vertex="1">
+          <mxGeometry x="-1410" y="-761" width="1010" height="385" as="geometry" />
+        </mxCell>
+        <mxCell id="zv5PgB1zrB0ypbQxWfDP-3" value="ObstclDistCalc" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontStyle=1;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="-1130" y="-600" width="710" height="185" as="geometry" />
+        </mxCell>
+        <mxCell id="zv5PgB1zrB0ypbQxWfDP-4" value="EgoVehDynFus (Ego Vehicle Dynamic Fusion)&lt;br&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;&lt;font style=&quot;font-weight: normal; font-size: 10px;&quot;&gt;(Could be carried over from MRR CVD)&lt;font style=&quot;font-size: 10px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/font&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;Correct ego vehicle speed with Cvd ego speed and obstacle estimated speed&lt;br&gt;USS Correction works below 5kph&lt;/font&gt;&lt;/span&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;fontStyle=1;fillColor=#e3c800;fontColor=#000000;strokeColor=#B09500;" parent="1" vertex="1">
+          <mxGeometry x="-991.75" y="-1080.67" width="338.5" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="zv5PgB1zrB0ypbQxWfDP-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.006;entryY=0.964;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="zv5PgB1zrB0ypbQxWfDP-6" target="zv5PgB1zrB0ypbQxWfDP-43" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="747" y="-285" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zv5PgB1zrB0ypbQxWfDP-6" value="ASM_PEB&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontStyle=1;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="-1410" y="-335.38" width="1900" height="66.75" as="geometry" />
+        </mxCell>
+        <mxCell id="zv5PgB1zrB0ypbQxWfDP-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.489;exitY=1;exitDx=0;exitDy=0;entryX=0.77;entryY=-0.005;entryDx=0;entryDy=0;entryPerimeter=0;exitPerimeter=0;" parent="1" source="zv5PgB1zrB0ypbQxWfDP-9" target="zv5PgB1zrB0ypbQxWfDP-6" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="53" y="-376" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zv5PgB1zrB0ypbQxWfDP-8" value="BrakingReq" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="zv5PgB1zrB0ypbQxWfDP-7" vertex="1" connectable="0">
+          <mxGeometry x="-0.0191" relative="1" as="geometry">
+            <mxPoint x="-4" y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zv5PgB1zrB0ypbQxWfDP-9" value="Ctrl_PEB" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontStyle=1;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="-361" y="-1026" width="851" height="650" as="geometry" />
+        </mxCell>
+        <mxCell id="zv5PgB1zrB0ypbQxWfDP-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;fontSize=11;" parent="1" source="zv5PgB1zrB0ypbQxWfDP-11" target="zv5PgB1zrB0ypbQxWfDP-6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zv5PgB1zrB0ypbQxWfDP-11" value="Inly_PEB" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;fontStyle=1;fillColor=#eeeeee;strokeColor=#36393d;" parent="1" vertex="1">
+          <mxGeometry x="-1639" y="-390" width="150" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="zv5PgB1zrB0ypbQxWfDP-12" value="VehInp" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-1624" y="-300" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zv5PgB1zrB0ypbQxWfDP-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" parent="1" source="zv5PgB1zrB0ypbQxWfDP-14" target="zv5PgB1zrB0ypbQxWfDP-4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zv5PgB1zrB0ypbQxWfDP-14" value="&lt;b&gt;CvdFromWhl&amp;nbsp;&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;&amp;nbsp;(Current CVD)&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;fillColor=#6d8764;fontColor=#ffffff;strokeColor=#3A5431;" parent="1" vertex="1">
+          <mxGeometry x="-1165" y="-1074" width="140" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="zv5PgB1zrB0ypbQxWfDP-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" parent="1" source="zv5PgB1zrB0ypbQxWfDP-17" target="zv5PgB1zrB0ypbQxWfDP-52" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zv5PgB1zrB0ypbQxWfDP-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" parent="1" source="zv5PgB1zrB0ypbQxWfDP-17" target="zv5PgB1zrB0ypbQxWfDP-49" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zv5PgB1zrB0ypbQxWfDP-17" value="UssInp" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#eeeeee;strokeColor=#36393d;" parent="1" vertex="1">
+          <mxGeometry x="-1624" y="-680" width="120" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="zv5PgB1zrB0ypbQxWfDP-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.002;entryY=0.329;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="zv5PgB1zrB0ypbQxWfDP-20" target="zv5PgB1zrB0ypbQxWfDP-49" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-1490" y="-918" />
+              <mxPoint x="-1490" y="-1007" />
+              <mxPoint x="-1411" y="-1007" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zv5PgB1zrB0ypbQxWfDP-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="zv5PgB1zrB0ypbQxWfDP-20" target="zv5PgB1zrB0ypbQxWfDP-59" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-1490" y="-918" />
+              <mxPoint x="-1490" y="-894" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zv5PgB1zrB0ypbQxWfDP-20" value="FsppInp" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#eeeeee;strokeColor=#36393d;" parent="1" vertex="1">
+          <mxGeometry x="-1624" y="-945" width="120" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="zv5PgB1zrB0ypbQxWfDP-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="zv5PgB1zrB0ypbQxWfDP-11" target="zv5PgB1zrB0ypbQxWfDP-2" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-1500" y="-294" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="-1470" y="-320" />
+              <mxPoint x="-1470" y="-472" />
+              <mxPoint x="-1410" y="-472" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zv5PgB1zrB0ypbQxWfDP-22" value="BswInp" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-1624" y="-346" width="120" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="zv5PgB1zrB0ypbQxWfDP-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="zv5PgB1zrB0ypbQxWfDP-29" target="zv5PgB1zrB0ypbQxWfDP-62" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-275" y="-220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zv5PgB1zrB0ypbQxWfDP-24" value="apa accel request" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="zv5PgB1zrB0ypbQxWfDP-23" vertex="1" connectable="0">
+          <mxGeometry x="0.8978" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zv5PgB1zrB0ypbQxWfDP-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.016;entryY=0.033;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="zv5PgB1zrB0ypbQxWfDP-29" target="zv5PgB1zrB0ypbQxWfDP-43" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="620" y="-1128" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="546" y="-1128" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zv5PgB1zrB0ypbQxWfDP-26" value="apastate" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="zv5PgB1zrB0ypbQxWfDP-25" vertex="1" connectable="0">
+          <mxGeometry x="0.8905" y="-5" relative="1" as="geometry">
+            <mxPoint x="55" y="-6" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zv5PgB1zrB0ypbQxWfDP-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" parent="1" source="zv5PgB1zrB0ypbQxWfDP-29" target="zv5PgB1zrB0ypbQxWfDP-6" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-1440" y="-1128" />
+              <mxPoint x="-1440" y="-319" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zv5PgB1zrB0ypbQxWfDP-28" value="apastate" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="zv5PgB1zrB0ypbQxWfDP-27" vertex="1" connectable="0">
+          <mxGeometry x="0.923" y="2" relative="1" as="geometry">
+            <mxPoint y="-25" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zv5PgB1zrB0ypbQxWfDP-29" value="ApaInp" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#eeeeee;strokeColor=#36393d;" parent="1" vertex="1">
+          <mxGeometry x="-1624" y="-1155.67" width="120" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="zv5PgB1zrB0ypbQxWfDP-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="zv5PgB1zrB0ypbQxWfDP-32" target="zv5PgB1zrB0ypbQxWfDP-62" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zv5PgB1zrB0ypbQxWfDP-31" value="DTC" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="zv5PgB1zrB0ypbQxWfDP-30" vertex="1" connectable="0">
+          <mxGeometry x="0.9086" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zv5PgB1zrB0ypbQxWfDP-32" value="SsiInp" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#eeeeee;strokeColor=#36393d;" parent="1" vertex="1">
+          <mxGeometry x="-1624" y="-823" width="120" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="zv5PgB1zrB0ypbQxWfDP-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;" parent="1" source="zv5PgB1zrB0ypbQxWfDP-34" target="zv5PgB1zrB0ypbQxWfDP-35" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-690" y="-499" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zv5PgB1zrB0ypbQxWfDP-34" value="ObstclDistDecmpstn (Obstacle Distance Decomposition)&lt;br style=&quot;font-size: 11px;&quot;&gt;&lt;ul&gt;&lt;li&gt;&lt;font size=&quot;1&quot;&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;Decompose rear and front obstacle vector distance to longitudinal speed direction (vehicle center axle)&lt;/span&gt;&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font size=&quot;1&quot;&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;Side obstacle distance is assumed to be the lateral interval between obstacle and ego vehicle&lt;/span&gt;&lt;/font&gt;&lt;/li&gt;&lt;/ul&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;fontStyle=1;fillColor=#f0a30a;fontColor=#000000;strokeColor=#BD7000;" parent="1" vertex="1">
+          <mxGeometry x="-920" y="-569" width="230" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="zv5PgB1zrB0ypbQxWfDP-35" value="ObstclDistCnfmn (Obstacle Distance Confirmantion)&lt;br&gt;&lt;ul style=&quot;font-size: 10px;&quot;&gt;&lt;li&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Front and rear obstacle distance confirmation by either multi-sensor distance or various distance from single sensor&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Critial distance determination&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;fontStyle=1;fillColor=#fa6800;fontColor=#000000;strokeColor=#C73500;" parent="1" vertex="1">
+          <mxGeometry x="-670" y="-569" width="230" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="zv5PgB1zrB0ypbQxWfDP-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=11;" parent="1" source="zv5PgB1zrB0ypbQxWfDP-38" target="zv5PgB1zrB0ypbQxWfDP-42" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zv5PgB1zrB0ypbQxWfDP-37" value="Longitudinal comfortable braking trigger&lt;br&gt;Longitudinal emergency braking trigger" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=11;" parent="zv5PgB1zrB0ypbQxWfDP-36" vertex="1" connectable="0">
+          <mxGeometry x="-0.0885" y="2" relative="1" as="geometry">
+            <mxPoint x="-2" y="-12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zv5PgB1zrB0ypbQxWfDP-38" value="LgtCRA (Longitudinal Collision Risk Assessment)&lt;br&gt;&lt;span style=&quot;background-color: initial; font-weight: normal;&quot;&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;USS mid, USS corner, SSI, FSD Lgt&lt;/font&gt;&lt;/span&gt;&lt;br&gt;&lt;ul&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;font-weight: normal; font-size: x-small; background-color: initial;&quot;&gt;Actuator delay compensation&lt;/span&gt;&lt;/li&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;font-weight: normal; font-size: x-small; background-color: initial;&quot;&gt;Braking trigger generation based on look-up threshold&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;align=left;verticalAlign=top;fontStyle=1;fillColor=#6d8764;fontColor=#ffffff;strokeColor=#3A5431;" parent="1" vertex="1">
+          <mxGeometry x="20" y="-890" width="291" height="135" as="geometry" />
+        </mxCell>
+        <mxCell id="zv5PgB1zrB0ypbQxWfDP-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=11;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="zv5PgB1zrB0ypbQxWfDP-41" target="zv5PgB1zrB0ypbQxWfDP-42" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="369" y="-636.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zv5PgB1zrB0ypbQxWfDP-40" value="Lateral comfortable braking trigger&lt;br&gt;Lateral emergency braking trigger" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;" parent="zv5PgB1zrB0ypbQxWfDP-39" vertex="1" connectable="0">
+          <mxGeometry x="-0.1478" y="-2" relative="1" as="geometry">
+            <mxPoint x="-31" y="-27" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zv5PgB1zrB0ypbQxWfDP-41" value="LatCRA (Lateral Collision Risk Assessment)&lt;br&gt;&lt;span style=&quot;background-color: initial; font-weight: normal;&quot;&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;USS corner, USS side, FSD lat&lt;/font&gt;&lt;/span&gt;&lt;br&gt;&lt;ul&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;font-weight: normal; font-size: x-small; background-color: initial;&quot;&gt;Actuator delay compensation&lt;/span&gt;&lt;/li&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;font-weight: normal; font-size: x-small; background-color: initial;&quot;&gt;Braking trigger generation based on look-up threshold&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;align=left;verticalAlign=top;fontStyle=1;fillColor=#6d8764;fontColor=#ffffff;strokeColor=#3A5431;" parent="1" vertex="1">
+          <mxGeometry x="20" y="-680" width="291" height="135" as="geometry" />
+        </mxCell>
+        <mxCell id="zv5PgB1zrB0ypbQxWfDP-42" value="BrkTrgSlctn (Braking Trigger Selection)&lt;br style=&quot;font-size: 11px;&quot;&gt;&lt;ul&gt;&lt;li&gt;&lt;font size=&quot;1&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Warning （reduce target control speed）&lt;/span&gt;&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font size=&quot;1&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Comfortable braking latch&lt;/span&gt;&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font size=&quot;1&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Comfortable and emergency braking arbitration&lt;/span&gt;&lt;/font&gt;&lt;/li&gt;&lt;/ul&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;align=left;verticalAlign=top;fontStyle=1;fillColor=#6d8764;fontColor=#ffffff;strokeColor=#3A5431;" parent="1" vertex="1">
+          <mxGeometry x="220" y="-510" width="260" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="zv5PgB1zrB0ypbQxWfDP-43" value="Outly_PEB" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;fontStyle=1;fillColor=#eeeeee;strokeColor=#36393d;" parent="1" vertex="1">
+          <mxGeometry x="545" y="-1156" width="90" height="886" as="geometry" />
+        </mxCell>
+        <mxCell id="zv5PgB1zrB0ypbQxWfDP-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.433;entryY=0.003;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="zv5PgB1zrB0ypbQxWfDP-46" target="zv5PgB1zrB0ypbQxWfDP-3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zv5PgB1zrB0ypbQxWfDP-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.002;entryY=0.282;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="zv5PgB1zrB0ypbQxWfDP-46" target="zv5PgB1zrB0ypbQxWfDP-9" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zv5PgB1zrB0ypbQxWfDP-46" value="VehSpdDecmpstn (Vehicle Speed Decomposition）&lt;br&gt;&lt;span style=&quot;font-weight: normal; font-size: 10px;&quot;&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;Decompose ego vector speed to longitudial and lateral speeds based on Cvd yaw rate&lt;br&gt;Four lateral speeds need at four APA installation location.&lt;br&gt;Eight longitudinal speeds at 8 UPA installation location&lt;br&gt;&lt;/font&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;fontStyle=1;fillColor=#e3c800;fontColor=#000000;strokeColor=#B09500;" parent="1" vertex="1">
+          <mxGeometry x="-1018.38" y="-878" width="390.38" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="zv5PgB1zrB0ypbQxWfDP-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" parent="1" source="zv5PgB1zrB0ypbQxWfDP-49" target="zv5PgB1zrB0ypbQxWfDP-4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zv5PgB1zrB0ypbQxWfDP-48" value="Vehicle_Dynamic_USS" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="zv5PgB1zrB0ypbQxWfDP-47" vertex="1" connectable="0">
+          <mxGeometry x="0.0166" relative="1" as="geometry">
+            <mxPoint x="-7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zv5PgB1zrB0ypbQxWfDP-49" value="USSSpeedometer&lt;br style=&quot;border-color: var(--border-color); font-size: 11px;&quot;&gt;&lt;font style=&quot;border-color: var(--border-color); font-weight: normal;&quot; size=&quot;1&quot;&gt;Estimate host speed based on Uss distance and free space, works when host speed very low, may need to be map based.&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;fontStyle=1;fillColor=#e51400;strokeColor=#B20000;fontColor=#ffffff;" parent="1" vertex="1">
+          <mxGeometry x="-1411" y="-1040" width="191" height="99" as="geometry" />
+        </mxCell>
+        <mxCell id="zv5PgB1zrB0ypbQxWfDP-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="zv5PgB1zrB0ypbQxWfDP-55" target="zv5PgB1zrB0ypbQxWfDP-34" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-895" y="-508" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zv5PgB1zrB0ypbQxWfDP-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.998;exitY=0.758;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitPerimeter=0;" parent="1" source="zv5PgB1zrB0ypbQxWfDP-52" target="zv5PgB1zrB0ypbQxWfDP-3" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zv5PgB1zrB0ypbQxWfDP-52" value="USSUpdate&lt;br style=&quot;border-color: var(--border-color); font-size: 11px;&quot;&gt;&lt;font style=&quot;border-color: var(--border-color); font-weight: normal;&quot; size=&quot;1&quot;&gt;Calculation based on real USS input update.&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontStyle=1;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="-1390" y="-723" width="230" height="284" as="geometry" />
+        </mxCell>
+        <mxCell id="zv5PgB1zrB0ypbQxWfDP-53" value="ObstclSpdEstim (Obstacle Speed Estimation)&lt;br style=&quot;border-color: var(--border-color); font-size: 11px;&quot;&gt;&lt;font style=&quot;border-color: var(--border-color); font-weight: normal;&quot; size=&quot;1&quot;&gt;Estimate obstacle speed (the change rate of uss distance) based on either Uss distance or free space raw distance&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;fontStyle=1;fillColor=#f0a30a;fontColor=#000000;strokeColor=#BD7000;" parent="1" vertex="1">
+          <mxGeometry x="-1373.75" y="-680" width="197.5" height="99" as="geometry" />
+        </mxCell>
+        <mxCell id="zv5PgB1zrB0ypbQxWfDP-54" value="ObstclAngEstim (Obstacle Angle Estimation)&lt;br style=&quot;border-color: var(--border-color); font-size: 11px;&quot;&gt;&lt;font style=&quot;border-color: var(--border-color); font-weight: normal;&quot; size=&quot;1&quot;&gt;Estimate obstacle angle to the sensor position based on Uss distance, also considering free space raw distance&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;fontStyle=1;fillColor=#fa6800;fontColor=#000000;strokeColor=#C73500;" parent="1" vertex="1">
+          <mxGeometry x="-1373.75" y="-556.25" width="197.5" height="92.5" as="geometry" />
+        </mxCell>
+        <mxCell id="zv5PgB1zrB0ypbQxWfDP-55" value="ObstclDistPrdct (Obstacle Distance Prediction)&lt;br style=&quot;border-color: var(--border-color); font-size: 11px;&quot;&gt;&lt;font style=&quot;border-color: var(--border-color); font-weight: normal;&quot; size=&quot;1&quot;&gt;Predict USS input to &#39;now&#39; based on corrected vehicle speed&amp;nbsp;and either Uss&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;fontStyle=1;fillColor=#f0a30a;fontColor=#000000;strokeColor=#BD7000;" parent="1" vertex="1">
+          <mxGeometry x="-1110" y="-569" width="170" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="zv5PgB1zrB0ypbQxWfDP-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" parent="1" source="zv5PgB1zrB0ypbQxWfDP-59" target="zv5PgB1zrB0ypbQxWfDP-62" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zv5PgB1zrB0ypbQxWfDP-57" value="DTC(Lgt/Lat)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="zv5PgB1zrB0ypbQxWfDP-56" vertex="1" connectable="0">
+          <mxGeometry x="-0.035" y="-2" relative="1" as="geometry">
+            <mxPoint x="108" y="-2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zv5PgB1zrB0ypbQxWfDP-58" value="DTC(Lgt/Lat)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="zv5PgB1zrB0ypbQxWfDP-56" vertex="1" connectable="0">
+          <mxGeometry x="0.1496" y="-1" relative="1" as="geometry">
+            <mxPoint x="-8" y="-4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zv5PgB1zrB0ypbQxWfDP-59" value="FreeSpaceDistCal&lt;br style=&quot;border-color: var(--border-color); font-size: 11px;&quot;&gt;&lt;font style=&quot;border-color: var(--border-color); font-weight: normal;&quot; size=&quot;1&quot;&gt;Calculate Distance To Collision based on FreeSpace input&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;fontStyle=1;fillColor=#6d8764;fontColor=#ffffff;strokeColor=#3A5431;" parent="1" vertex="1">
+          <mxGeometry x="-581" y="-929" width="165" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="zv5PgB1zrB0ypbQxWfDP-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="zv5PgB1zrB0ypbQxWfDP-62" target="zv5PgB1zrB0ypbQxWfDP-38" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint y="-795" />
+              <mxPoint y="-821" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zv5PgB1zrB0ypbQxWfDP-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.303;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="zv5PgB1zrB0ypbQxWfDP-62" target="zv5PgB1zrB0ypbQxWfDP-41" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint y="-795" />
+              <mxPoint y="-639" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zv5PgB1zrB0ypbQxWfDP-62" value="Preprocessing" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;align=left;verticalAlign=top;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="-323" y="-991" width="303" height="391" as="geometry" />
+        </mxCell>
+        <mxCell id="zv5PgB1zrB0ypbQxWfDP-63" value="DtcCompensation&lt;br&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;Compensate the disctance to collision calculated from USS, FSD and SSI based on the perception performance.&lt;/font&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;align=left;verticalAlign=top;fontStyle=1;fillColor=#e3c800;fontColor=#000000;strokeColor=#B09500;" parent="1" vertex="1">
+          <mxGeometry x="-298" y="-852" width="242" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="zv5PgB1zrB0ypbQxWfDP-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="zv5PgB1zrB0ypbQxWfDP-67" target="zv5PgB1zrB0ypbQxWfDP-63" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zv5PgB1zrB0ypbQxWfDP-65" value="Selected Strategy" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="zv5PgB1zrB0ypbQxWfDP-64" vertex="1" connectable="0">
+          <mxGeometry x="-0.0505" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zv5PgB1zrB0ypbQxWfDP-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="zv5PgB1zrB0ypbQxWfDP-67" target="zv5PgB1zrB0ypbQxWfDP-73" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zv5PgB1zrB0ypbQxWfDP-67" value="DTCArbitration&lt;br&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;Arbitration for different source based on the predefined area/strategy.&lt;/font&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;align=left;verticalAlign=top;fontStyle=1;fillColor=#f0a30a;fontColor=#000000;strokeColor=#BD7000;" parent="1" vertex="1">
+          <mxGeometry x="-298" y="-950" width="242" height="63" as="geometry" />
+        </mxCell>
+        <mxCell id="zv5PgB1zrB0ypbQxWfDP-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.007;entryY=0.923;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="zv5PgB1zrB0ypbQxWfDP-2" target="zv5PgB1zrB0ypbQxWfDP-62" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-380" y="-555" />
+              <mxPoint x="-380" y="-630" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zv5PgB1zrB0ypbQxWfDP-69" value="DTC(Lgt/Lat)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="zv5PgB1zrB0ypbQxWfDP-68" vertex="1" connectable="0">
+          <mxGeometry x="-0.0634" relative="1" as="geometry">
+            <mxPoint x="19" y="17" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zv5PgB1zrB0ypbQxWfDP-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="zv5PgB1zrB0ypbQxWfDP-4" target="zv5PgB1zrB0ypbQxWfDP-46" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zv5PgB1zrB0ypbQxWfDP-71" value="Vehicle_Dynamic_Fusion" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="zv5PgB1zrB0ypbQxWfDP-70" vertex="1" connectable="0">
+          <mxGeometry x="0.5104" y="1" relative="1" as="geometry">
+            <mxPoint x="416" y="-201" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zv5PgB1zrB0ypbQxWfDP-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="zv5PgB1zrB0ypbQxWfDP-4" target="zv5PgB1zrB0ypbQxWfDP-59" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zv5PgB1zrB0ypbQxWfDP-73" value="ConfigUpdate&lt;br style=&quot;border-color: var(--border-color); font-size: 11px;&quot;&gt;&lt;font size=&quot;1&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;1. Calibrated threshold is determined when APA acceleration request is 0.&amp;nbsp; For other scenario, threshold will be adjusted for vehicle response difference.&lt;br&gt;2. When USS change rate remain very low. Change the thresold: only when distance is close to blind spot, brake can be triggered.&lt;br&gt;&lt;/span&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;align=left;verticalAlign=top;fontStyle=1;fillColor=#e3c800;fontColor=#000000;strokeColor=#B09500;" parent="1" vertex="1">
+          <mxGeometry x="-298" y="-757" width="242" height="137" as="geometry" />
+        </mxCell>
+        <mxCell id="zv5PgB1zrB0ypbQxWfDP-74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="zv5PgB1zrB0ypbQxWfDP-53" target="zv5PgB1zrB0ypbQxWfDP-73" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-1030" y="-631" />
+              <mxPoint x="-1030" y="-688" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zv5PgB1zrB0ypbQxWfDP-75" value="USS change rate &lt;br&gt;to suppress brake" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="zv5PgB1zrB0ypbQxWfDP-74" vertex="1" connectable="0">
+          <mxGeometry x="0.8406" y="2" relative="1" as="geometry">
+            <mxPoint x="-135" y="2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zv5PgB1zrB0ypbQxWfDP-76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="zv5PgB1zrB0ypbQxWfDP-20" target="zv5PgB1zrB0ypbQxWfDP-52" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-1490" y="-918" />
+              <mxPoint x="-1490" y="-510" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zv5PgB1zrB0ypbQxWfDP-77" value="area blocked flag&lt;br&gt;as enabler" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="zv5PgB1zrB0ypbQxWfDP-76" vertex="1" connectable="0">
+          <mxGeometry x="0.7169" relative="1" as="geometry">
+            <mxPoint x="-40" y="-58" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zv5PgB1zrB0ypbQxWfDP-78" value="BrakingReq" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.492;exitDx=0;exitDy=0;fontSize=11;exitPerimeter=0;entryX=0.004;entryY=0.508;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="zv5PgB1zrB0ypbQxWfDP-9" target="zv5PgB1zrB0ypbQxWfDP-43" edge="1">
+          <mxGeometry x="0.0475" y="10" relative="1" as="geometry">
+            <mxPoint x="620" y="-706" as="targetPoint" />
+            <mxPoint x="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="qY0CPmUdbNo8wz8LAklZ" name="PEBFSP">
+    <mxGraphModel dx="1209" dy="547" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
