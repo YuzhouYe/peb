@@ -1,9 +1,56 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0" version="29.1.1">
   <diagram name="Page-1" id="BGXV2bKUjU1jcwx5fihb">
-    <mxGraphModel>
+    <mxGraphModel dx="1188" dy="1828" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="V7LyHPoGQyWwgXE3KqfZ-4" edge="1" parent="1" source="V7LyHPoGQyWwgXE3KqfZ-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="V7LyHPoGQyWwgXE3KqfZ-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="V7LyHPoGQyWwgXE3KqfZ-1" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Process" vertex="1">
+          <mxGeometry height="30" width="70" x="120" y="-1060" as="geometry" />
+        </mxCell>
+        <mxCell id="V7LyHPoGQyWwgXE3KqfZ-7" edge="1" parent="1" source="V7LyHPoGQyWwgXE3KqfZ-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="V7LyHPoGQyWwgXE3KqfZ-6" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="V7LyHPoGQyWwgXE3KqfZ-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="ALC自动变道保护" vertex="1">
+          <mxGeometry height="40" width="100" x="105" y="-940" as="geometry" />
+        </mxCell>
+        <mxCell id="V7LyHPoGQyWwgXE3KqfZ-5" edge="1" parent="1" source="V7LyHPoGQyWwgXE3KqfZ-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="V7LyHPoGQyWwgXE3KqfZ-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="V7LyHPoGQyWwgXE3KqfZ-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="init" vertex="1">
+          <mxGeometry height="30" width="95" x="107.5" y="-1000" as="geometry" />
+        </mxCell>
+        <mxCell id="V7LyHPoGQyWwgXE3KqfZ-17" edge="1" parent="1" source="V7LyHPoGQyWwgXE3KqfZ-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="V7LyHPoGQyWwgXE3KqfZ-16" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="V7LyHPoGQyWwgXE3KqfZ-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="行为状态判断" vertex="1">
+          <mxGeometry height="40" width="105" x="102.5" y="-870" as="geometry" />
+        </mxCell>
+        <mxCell id="V7LyHPoGQyWwgXE3KqfZ-9" parent="1" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.62;dx=16.33;notch=0;opacity=40;" value="" vertex="1">
+          <mxGeometry height="20" width="110" x="250" y="-860" as="geometry" />
+        </mxCell>
+        <mxCell id="V7LyHPoGQyWwgXE3KqfZ-10" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;fillColor=#fff2cc;strokeColor=#d6b656;gradientColor=none;opacity=70;rounded=0;glass=0;" value="状态判断逻辑" vertex="1">
+          <mxGeometry height="198" width="210" x="400" y="-956" as="geometry">
+            <mxRectangle height="30" width="120" x="400" y="-956" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="V7LyHPoGQyWwgXE3KqfZ-11" parent="V7LyHPoGQyWwgXE3KqfZ-10" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" value="lane borrow: 读取横向偏移量lat_offset" vertex="1">
+          <mxGeometry height="34" width="210" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="V7LyHPoGQyWwgXE3KqfZ-12" parent="V7LyHPoGQyWwgXE3KqfZ-10" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" value="lane change: 在lanechange子状态为preparation时，读取lc_wait_time" vertex="1">
+          <mxGeometry height="44" width="210" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="V7LyHPoGQyWwgXE3KqfZ-13" parent="V7LyHPoGQyWwgXE3KqfZ-10" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" value="lane keep: 如果既不是laneborrow也不是lanechange准备状态，则初始化target_gap为(-10,-10)然后提前退出" vertex="1">
+          <mxGeometry height="64" width="210" y="104" as="geometry" />
+        </mxCell>
+        <mxCell id="V7LyHPoGQyWwgXE3KqfZ-15" parent="V7LyHPoGQyWwgXE3KqfZ-10" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" value="场景定义: Urban/Highway" vertex="1">
+          <mxGeometry height="30" width="210" y="168" as="geometry" />
+        </mxCell>
+        <mxCell id="V7LyHPoGQyWwgXE3KqfZ-16" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="根据变道参数设置变道方向&lt;div&gt;计算可执行变道点的距离&lt;/div&gt;" vertex="1">
+          <mxGeometry height="47" width="147.5" x="81.25" y="-797" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
