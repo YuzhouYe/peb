@@ -55,7 +55,7 @@
           <mxGeometry height="47" width="147.5" x="81.25" y="-797" as="geometry" />
         </mxCell>
         <mxCell id="V7LyHPoGQyWwgXE3KqfZ-18" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=12;fillColor=#fff2cc;strokeColor=#d6b656;" value="计算多车道变道场景下的开始变道距离" vertex="1">
-          <mxGeometry height="240" width="210" x="390" y="-730" as="geometry" />
+          <mxGeometry height="240" width="210" x="390" y="-815" as="geometry" />
         </mxCell>
         <mxCell id="V7LyHPoGQyWwgXE3KqfZ-19" parent="V7LyHPoGQyWwgXE3KqfZ-18" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" value="遍历current_tasks()&lt;div&gt;地图任务序列，如连续多次变道指令&lt;/div&gt;" vertex="1">
           <mxGeometry height="44" width="210" y="26" as="geometry" />
@@ -79,7 +79,7 @@
           <mxGeometry height="50" width="155" x="77.5" y="-720" as="geometry" />
         </mxCell>
         <mxCell id="V7LyHPoGQyWwgXE3KqfZ-24" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=12;fillColor=#fff2cc;strokeColor=#d6b656;" value="Calculate lc_buffer" vertex="1">
-          <mxGeometry height="200" width="200" x="630" y="-730" as="geometry" />
+          <mxGeometry height="200" width="200" x="630" y="-815" as="geometry" />
         </mxCell>
         <mxCell id="V7LyHPoGQyWwgXE3KqfZ-25" parent="V7LyHPoGQyWwgXE3KqfZ-24" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" value="识别多车道变道任务（通过遍历地图任务序列）" vertex="1">
           <mxGeometry height="44" width="200" y="26" as="geometry" />
@@ -93,8 +93,170 @@
         <mxCell id="V7LyHPoGQyWwgXE3KqfZ-28" parent="V7LyHPoGQyWwgXE3KqfZ-24" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" value="&lt;div&gt;为后续间隙选择提供约束（通过 lane_change_cross_num_ 影响风险系数）&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="200" y="140" as="geometry" />
         </mxCell>
+        <mxCell id="V7LyHPoGQyWwgXE3KqfZ-38" edge="1" parent="1" source="V7LyHPoGQyWwgXE3KqfZ-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="V7LyHPoGQyWwgXE3KqfZ-37" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="V7LyHPoGQyWwgXE3KqfZ-29" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="判断变道的横向可行性" vertex="1">
           <mxGeometry height="40" width="142.5" x="83.75" y="-640" as="geometry" />
+        </mxCell>
+        <mxCell id="V7LyHPoGQyWwgXE3KqfZ-33" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;fillColor=#fff2cc;strokeColor=#d6b656;" value="横向可行性" vertex="1">
+          <mxGeometry height="180" width="350" x="390" y="-550" as="geometry" />
+        </mxCell>
+        <mxCell id="V7LyHPoGQyWwgXE3KqfZ-34" parent="V7LyHPoGQyWwgXE3KqfZ-33" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" value="lateral space在障碍物过滤时使用" vertex="1">
+          <mxGeometry height="34" width="350" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="V7LyHPoGQyWwgXE3KqfZ-35" parent="V7LyHPoGQyWwgXE3KqfZ-33" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" value="overlap_dis：自车超出车道的距离（越大越危险）" vertex="1">
+          <mxGeometry height="40" width="350" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="V7LyHPoGQyWwgXE3KqfZ-36" parent="V7LyHPoGQyWwgXE3KqfZ-33" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" value="&lt;div&gt;避免选择不可行的间隙：如果自车横向空间不足，某些宽障碍物无法超越&lt;/div&gt;&lt;div&gt;监控变道进度：通过 overlap_dis 可以判断变道执行到什么程度&lt;/div&gt;&lt;div&gt;安全裕度评估：确保目标车道有足够横向空间容纳自车&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="350" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="V7LyHPoGQyWwgXE3KqfZ-51" edge="1" parent="1" source="V7LyHPoGQyWwgXE3KqfZ-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="V7LyHPoGQyWwgXE3KqfZ-50" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="V7LyHPoGQyWwgXE3KqfZ-37" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="更新前车信息&lt;div&gt;处理检测到的故障车辆&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="141.25" x="85" y="-550" as="geometry" />
+        </mxCell>
+        <mxCell id="V7LyHPoGQyWwgXE3KqfZ-39" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;fillColor=#fff2cc;strokeColor=#d6b656;" value="更新前车信息" vertex="1">
+          <mxGeometry height="370" width="350" x="390" y="-320" as="geometry" />
+        </mxCell>
+        <mxCell id="V7LyHPoGQyWwgXE3KqfZ-40" parent="V7LyHPoGQyWwgXE3KqfZ-39" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" value="1.坐标转换：将当前车道和目标车道的参考线点转换到统一的Frenet坐标系下，因为需要在同一个坐标系下比较和计算两条车道上的障碍物位置" vertex="1">
+          <mxGeometry height="64" width="350" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="V7LyHPoGQyWwgXE3KqfZ-41" parent="V7LyHPoGQyWwgXE3KqfZ-39" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" value="2.获取当前自车状态信息：ego_s, v_ego,&amp;nbsp;curr_lane_adc_sl: 自车在当前车道Frenet坐标系下的SL边界" vertex="1">
+          <mxGeometry height="40" width="350" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="V7LyHPoGQyWwgXE3KqfZ-42" parent="V7LyHPoGQyWwgXE3KqfZ-39" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" value="3.1 真实前车&lt;div&gt;从障碍物管理器find_obstacle(lead_car_.id)中查找前车对象，找不到就把ID = -1&lt;div&gt;若找到则计算相对速度和相对距离：&lt;/div&gt;&lt;div&gt;d_rel = sl_boundary.start_s - ego_s&lt;/div&gt;&lt;div&gt;lead_obs-&amp;gt;speed() * cos(Yaw_relative_frenet)&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="90" width="350" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="V7LyHPoGQyWwgXE3KqfZ-43" parent="V7LyHPoGQyWwgXE3KqfZ-39" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" value="3.2 虚拟障碍物&lt;br&gt;&lt;div&gt;&lt;div&gt;lead_car_.v_rel = -v_ego;&amp;nbsp; // 相对速度为负自车速度&lt;/div&gt;&lt;div&gt;lead_car_.d_rel = planning_status.lane_status.change_lane.virtual_obstacle_distance;&amp;nbsp; // 从规划状态中获取虚拟距离&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="90" width="350" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="V7LyHPoGQyWwgXE3KqfZ-49" parent="V7LyHPoGQyWwgXE3KqfZ-39" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" value="4.处理检测到的故障车辆：&lt;div&gt;&lt;div&gt;从全局规划上下文中获取已检测到的故障车辆ID列表&lt;/div&gt;&lt;div&gt;把min_gap_s设置为0&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="350" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="V7LyHPoGQyWwgXE3KqfZ-62" edge="1" parent="1" source="V7LyHPoGQyWwgXE3KqfZ-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="V7LyHPoGQyWwgXE3KqfZ-61" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="V7LyHPoGQyWwgXE3KqfZ-50" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="筛选和收集目标车道上的障碍物, 通过most_front_car和most_rear_car,&amp;nbsp;形成一个完整的障碍物序列&amp;nbsp;" vertex="1">
+          <mxGeometry height="75" width="155" x="77.5" y="-475" as="geometry" />
+        </mxCell>
+        <mxCell id="V7LyHPoGQyWwgXE3KqfZ-52" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;fillColor=#fff2cc;strokeColor=#d6b656;" value="筛选和收集目标车道上的障碍物" vertex="1">
+          <mxGeometry height="420" width="430" x="390" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="V7LyHPoGQyWwgXE3KqfZ-53" parent="V7LyHPoGQyWwgXE3KqfZ-52" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" value="1.初始化工作：&lt;span style=&quot;background-color: transparent;&quot;&gt;most_front_car_ 和 most_rear_car_ 是虚拟边界障碍物,用于限定gap搜索范围&lt;/span&gt;&lt;div&gt;将它们的相对坐标转换为绝对坐标,以便后续统一处理&lt;/div&gt;" vertex="1">
+          <mxGeometry height="64" width="430" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="V7LyHPoGQyWwgXE3KqfZ-54" parent="V7LyHPoGQyWwgXE3KqfZ-52" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" value="2.&amp;nbsp;遍历所有障碍物并筛选目标车道障碍物&lt;div&gt;筛选条件：&lt;/div&gt;&lt;div&gt;&lt;div&gt;!obstacle-&amp;gt;IsFrenetInvalid(): Frenet坐标有效&lt;/div&gt;&lt;div&gt;is_on_target(obstacle): 位于目标车道上(根据横向位置判断)&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="70" width="430" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="V7LyHPoGQyWwgXE3KqfZ-55" parent="V7LyHPoGQyWwgXE3KqfZ-52" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" value="3. 进一步分类处理：&lt;div&gt;3.1 在变道点之前&lt;/div&gt;&lt;div&gt;i.&amp;nbsp;计算相对距离 d_rel&lt;/div&gt;&lt;div&gt;ii.&amp;nbsp;过滤过宽障碍物:&lt;/div&gt;&lt;div&gt;障碍物宽度 &amp;gt; lateral space + 0.2m缓冲,&lt;/div&gt;&lt;div&gt;如果后方障碍物太宽无法作为有效的leader(跟车对象),则设置min_gap_s限制,避免选择该障碍物前方的gap&lt;/div&gt;&lt;div&gt;3.2在实线solid line区域内的障碍物&lt;/div&gt;&lt;div&gt;计算相对距离：nearest_obstacle_in_solid_line_dis = sl_boundary.start_s - ego_s&lt;/div&gt;&lt;div&gt;&lt;div&gt;如果实线区域存在障碍物,将most_front_car_更新为该障碍物&lt;/div&gt;&lt;div&gt;否则most_front_car_保持为虚拟边界(id=-1)&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="190" width="430" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="V7LyHPoGQyWwgXE3KqfZ-60" parent="V7LyHPoGQyWwgXE3KqfZ-52" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" value="&lt;div&gt;4. 添加边界障碍物&lt;/div&gt;&lt;div&gt;&lt;div&gt;obstacle_on_target_.push_back(most_front_car_);&amp;nbsp; // 添加最前虚拟边界&lt;/div&gt;&lt;div&gt;obstacle_on_target_.push_back(most_rear_car_);&amp;nbsp; &amp;nbsp;// 添加最后虚拟边界&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="70" width="430" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="V7LyHPoGQyWwgXE3KqfZ-70" edge="1" parent="1" source="V7LyHPoGQyWwgXE3KqfZ-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="V7LyHPoGQyWwgXE3KqfZ-69" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="V7LyHPoGQyWwgXE3KqfZ-61" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="更新ALC保护距离" vertex="1">
+          <mxGeometry height="60" width="152" x="79" y="-350" as="geometry" />
+        </mxCell>
+        <mxCell id="V7LyHPoGQyWwgXE3KqfZ-63" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;fillColor=#fff2cc;strokeColor=#d6b656;" value="ALC保护机制" vertex="1">
+          <mxGeometry height="220" width="390" x="390" y="560" as="geometry" />
+        </mxCell>
+        <mxCell id="V7LyHPoGQyWwgXE3KqfZ-64" parent="V7LyHPoGQyWwgXE3KqfZ-63" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" value="目的：用于防止自车变道时干扰其他正在主动变道的车辆" vertex="1">
+          <mxGeometry height="30" width="390" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="V7LyHPoGQyWwgXE3KqfZ-65" parent="V7LyHPoGQyWwgXE3KqfZ-63" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" value="遍历ALC车辆列表: alc_cars_id_ 包含所有正在进行主动变道的车辆ID" vertex="1">
+          <mxGeometry height="30" width="390" y="56" as="geometry" />
+        </mxCell>
+        <mxCell id="V7LyHPoGQyWwgXE3KqfZ-66" parent="V7LyHPoGQyWwgXE3KqfZ-63" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" value="检查ALC车辆是否在目标车道" vertex="1">
+          <mxGeometry height="30" width="390" y="86" as="geometry" />
+        </mxCell>
+        <mxCell id="V7LyHPoGQyWwgXE3KqfZ-67" parent="V7LyHPoGQyWwgXE3KqfZ-63" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" value="更新保护距离：&lt;div&gt;&lt;div&gt;取所有ALC车辆的最大end_s坐标(加上1cm容差)&lt;/div&gt;&lt;div&gt;alc_car_protection_dis_ 用于后续gap有效性检查中&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="64" width="390" y="116" as="geometry" />
+        </mxCell>
+        <mxCell id="V7LyHPoGQyWwgXE3KqfZ-68" parent="V7LyHPoGQyWwgXE3KqfZ-63" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" value="禁止选择前车位置在ALC保护距离之前的gap,避免插入到ALC车辆前方造成干扰。" vertex="1">
+          <mxGeometry height="40" width="390" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="V7LyHPoGQyWwgXE3KqfZ-76" edge="1" parent="1" source="V7LyHPoGQyWwgXE3KqfZ-69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="V7LyHPoGQyWwgXE3KqfZ-75" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="V7LyHPoGQyWwgXE3KqfZ-69" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="初始化nearest GAP策略相关变量" vertex="1">
+          <mxGeometry height="50" width="115.5" x="97.25" y="-250" as="geometry" />
+        </mxCell>
+        <mxCell id="V7LyHPoGQyWwgXE3KqfZ-71" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;fillColor=#fff2cc;strokeColor=#d6b656;" value="变量类型" vertex="1">
+          <mxGeometry height="290" width="400" x="390" y="800" as="geometry" />
+        </mxCell>
+        <mxCell id="V7LyHPoGQyWwgXE3KqfZ-72" parent="V7LyHPoGQyWwgXE3KqfZ-71" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" value="&lt;div&gt;enable_nearest_gap_policy: 是否启用最近gap策略标志&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;默认false,后续会根据条件判断是否启用&lt;/div&gt;&lt;div&gt;启用条件(在后续代码中): lc_wait_time_ &amp;gt; 20.0 &amp;amp;&amp;amp; max_gap_v / v_cruise &amp;lt; 0.5&lt;/div&gt;&lt;div&gt;即: 等待超过20秒 且 最优gap速度低于巡航速度的50%(拥堵场景)&lt;/div&gt;&lt;div&gt;nearest_front_gap: 自车前方最近的有效gap信息&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;nearest_rear_gap: 自车后方最近的有效gap信息&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;nearest_front_gap_dis: 自车前方最近gap的距离&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;初始化为 max(),后续取最小值&lt;/div&gt;&lt;div&gt;nearest_rear_gap_dis: 自车后方最近gap的距离&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;初始化为 lowest(),后续取最大值(后方是负距离,越大表示越近)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="264" width="400" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="V7LyHPoGQyWwgXE3KqfZ-82" edge="1" parent="1" source="V7LyHPoGQyWwgXE3KqfZ-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="V7LyHPoGQyWwgXE3KqfZ-81" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="V7LyHPoGQyWwgXE3KqfZ-75" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="GAP搜索" vertex="1">
+          <mxGeometry height="60" width="161" x="75.13" y="-165" as="geometry" />
+        </mxCell>
+        <mxCell id="V7LyHPoGQyWwgXE3KqfZ-77" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;fillColor=#fff2cc;strokeColor=#d6b656;" value="GAP搜索" vertex="1">
+          <mxGeometry height="250" width="430" x="390" y="1150" as="geometry" />
+        </mxCell>
+        <mxCell id="V7LyHPoGQyWwgXE3KqfZ-78" parent="V7LyHPoGQyWwgXE3KqfZ-77" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" value="障碍物排序：&lt;div&gt;&lt;div&gt;按start_s升序排序,从近到远排列目标车道上的障碍物&lt;/div&gt;&lt;div&gt;为后续相邻障碍物之间的gap检测做准备&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="54" width="430" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="V7LyHPoGQyWwgXE3KqfZ-79" parent="V7LyHPoGQyWwgXE3KqfZ-77" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" value="初始化统计变量：&lt;div&gt;&lt;div&gt;average_gap_length_ = 0.0;&amp;nbsp; // 平均gap长度&lt;/div&gt;&lt;div&gt;double max_gap_v = 0.0;&amp;nbsp; &amp;nbsp; &amp;nbsp; // 最大gap速度(用于判断是否启用最近gap策略)&lt;/div&gt;&lt;div&gt;int gap_num = 0;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;// 真实gap数量&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="430" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="V7LyHPoGQyWwgXE3KqfZ-80" parent="V7LyHPoGQyWwgXE3KqfZ-77" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" value="遍历相邻障碍物对检测gap：&lt;div&gt;中止条件：&lt;/div&gt;&lt;div&gt;&amp;nbsp;距离过远（后车距离&amp;gt;70m）or&amp;nbsp;如果后车是上一帧的跟车对象且不是故障车&lt;/div&gt;&lt;div&gt;跳过条件：&lt;/div&gt;&lt;div&gt;前车是静止障碍物且在min_gap_s之前,跳过此gap&lt;/div&gt;" vertex="1">
+          <mxGeometry height="90" width="430" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="V7LyHPoGQyWwgXE3KqfZ-84" edge="1" parent="1" source="V7LyHPoGQyWwgXE3KqfZ-81" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="V7LyHPoGQyWwgXE3KqfZ-83" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="V7LyHPoGQyWwgXE3KqfZ-81" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="GAP验证" vertex="1">
+          <mxGeometry height="60" width="161" x="74.5" y="-60" as="geometry" />
+        </mxCell>
+        <mxCell id="V7LyHPoGQyWwgXE3KqfZ-86" edge="1" parent="1" source="V7LyHPoGQyWwgXE3KqfZ-83" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="V7LyHPoGQyWwgXE3KqfZ-85" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="V7LyHPoGQyWwgXE3KqfZ-83" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="GAP选择" vertex="1">
+          <mxGeometry height="60" width="161" x="74.5" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="V7LyHPoGQyWwgXE3KqfZ-100" edge="1" parent="1" source="V7LyHPoGQyWwgXE3KqfZ-85" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="V7LyHPoGQyWwgXE3KqfZ-95">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="V7LyHPoGQyWwgXE3KqfZ-85" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="输出结果" vertex="1">
+          <mxGeometry height="60" width="161" x="74.5" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="V7LyHPoGQyWwgXE3KqfZ-87" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;fillColor=#fff2cc;strokeColor=#d6b656;" value="GAP验证" vertex="1">
+          <mxGeometry height="140" width="430" x="390" y="1430" as="geometry" />
+        </mxCell>
+        <mxCell id="V7LyHPoGQyWwgXE3KqfZ-88" parent="V7LyHPoGQyWwgXE3KqfZ-87" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" value="调用check_gap_valid()检查gap是否满足安全、时间、空间等约束" vertex="1">
+          <mxGeometry height="34" width="430" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="V7LyHPoGQyWwgXE3KqfZ-89" parent="V7LyHPoGQyWwgXE3KqfZ-87" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" value="统计平均gap长度：统计两个真实障碍物之间的gap(排除虚拟边界)" vertex="1">
+          <mxGeometry height="40" width="430" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="V7LyHPoGQyWwgXE3KqfZ-90" parent="V7LyHPoGQyWwgXE3KqfZ-87" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" value="时间连续性奖励: 保持对同一gap的跟踪,避免频繁切换目标" vertex="1">
+          <mxGeometry height="40" width="430" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="V7LyHPoGQyWwgXE3KqfZ-91" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;fillColor=#fff2cc;strokeColor=#d6b656;" value="GAP选择" vertex="1">
+          <mxGeometry height="170" width="480" x="345" y="1610" as="geometry" />
+        </mxCell>
+        <mxCell id="V7LyHPoGQyWwgXE3KqfZ-92" parent="V7LyHPoGQyWwgXE3KqfZ-91" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" value="策略A: 最近gap策略 ：&lt;div&gt;&lt;div&gt;自车当前位置的gap(如果存在)&lt;/div&gt;&lt;div&gt;前后最近gap中cost较小的&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="64" width="480" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="V7LyHPoGQyWwgXE3KqfZ-93" parent="V7LyHPoGQyWwgXE3KqfZ-91" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" value="策略B: 正常策略&lt;div&gt;选择cost最小的gap&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="480" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="V7LyHPoGQyWwgXE3KqfZ-94" parent="V7LyHPoGQyWwgXE3KqfZ-91" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" value="实线区域故障车处理: 如果检测到实线区域的故障车且满足可超越条件,强制选择故障车前方作为目标gap" vertex="1">
+          <mxGeometry height="40" width="480" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="V7LyHPoGQyWwgXE3KqfZ-95" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;fillColor=#fff2cc;strokeColor=#d6b656;" value="输出结果" vertex="1">
+          <mxGeometry height="100" width="160" x="74.5" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="V7LyHPoGQyWwgXE3KqfZ-96" parent="V7LyHPoGQyWwgXE3KqfZ-95" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" value="将选中的目标gap(前车ID, 后车ID)写入规划状态,供后续轨迹规划使用" vertex="1">
+          <mxGeometry height="74" width="160" y="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
