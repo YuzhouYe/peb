@@ -1,9 +1,48 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36 Edg/143.0.0.0" version="29.2.10">
   <diagram name="Page-1" id="8BRIlojML5wMiSqYDgKk">
-    <mxGraphModel>
+    <mxGraphModel dx="1426" dy="874" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="8aJJi972sBKR3CS4VLb4-9" edge="1" parent="1" source="8aJJi972sBKR3CS4VLb4-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="8aJJi972sBKR3CS4VLb4-8" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8aJJi972sBKR3CS4VLb4-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="RunOnce" vertex="1">
+          <mxGeometry height="60" width="120" x="365" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="8aJJi972sBKR3CS4VLb4-12" edge="1" parent="1" source="8aJJi972sBKR3CS4VLb4-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="8aJJi972sBKR3CS4VLb4-11" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8aJJi972sBKR3CS4VLb4-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Search Gap:&lt;div&gt;FindGap()&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="365" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="8aJJi972sBKR3CS4VLb4-10" edge="1" parent="1" source="8aJJi972sBKR3CS4VLb4-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="8aJJi972sBKR3CS4VLb4-2" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8aJJi972sBKR3CS4VLb4-8" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="init and Preprocess" vertex="1">
+          <mxGeometry height="60" width="120" x="365" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="8aJJi972sBKR3CS4VLb4-17" edge="1" parent="1" source="8aJJi972sBKR3CS4VLb4-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="8aJJi972sBKR3CS4VLb4-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8aJJi972sBKR3CS4VLb4-20" edge="1" parent="1" source="8aJJi972sBKR3CS4VLb4-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="8aJJi972sBKR3CS4VLb4-14" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8aJJi972sBKR3CS4VLb4-11" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="gap_selected_ = false ?" vertex="1">
+          <mxGeometry height="70" width="119" x="366" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="8aJJi972sBKR3CS4VLb4-18" edge="1" parent="1" source="8aJJi972sBKR3CS4VLb4-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="8aJJi972sBKR3CS4VLb4-15" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8aJJi972sBKR3CS4VLb4-13" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;div&gt;如果没有GAP, 选择一个GAP&lt;/div&gt;SelectGap()" vertex="1">
+          <mxGeometry height="35" width="210" x="80" y="427" as="geometry" />
+        </mxCell>
+        <mxCell id="8aJJi972sBKR3CS4VLb4-14" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="如果有GAP，则检测该GAP是否可行&lt;div&gt;UpdateGapSelected()&lt;/div&gt;" vertex="1">
+          <mxGeometry height="44.5" width="230" x="560" y="422.75" as="geometry" />
+        </mxCell>
+        <mxCell id="8aJJi972sBKR3CS4VLb4-15" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;div&gt;如果这个GAP被selected超过3个周期&lt;/div&gt;CheckGapSelected()" vertex="1">
+          <mxGeometry height="35" width="210" x="80" y="487" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
