@@ -35,13 +35,13 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="8aJJi972sBKR3CS4VLb4-13" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;div&gt;如果没有GAP, 选择一个GAP&lt;/div&gt;SelectGap()" vertex="1">
-          <mxGeometry height="35" width="210" x="80" y="427" as="geometry" />
+          <mxGeometry height="35" width="210" x="110" y="428" as="geometry" />
         </mxCell>
         <mxCell id="8aJJi972sBKR3CS4VLb4-14" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="如果有GAP，则检测该GAP是否可行&lt;div&gt;UpdateGapSelected()&lt;/div&gt;" vertex="1">
-          <mxGeometry height="44.5" width="230" x="560" y="422.75" as="geometry" />
+          <mxGeometry height="44.5" width="230" x="530" y="422.75" as="geometry" />
         </mxCell>
         <mxCell id="8aJJi972sBKR3CS4VLb4-15" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;div&gt;如果这个GAP被selected超过3个周期&lt;/div&gt;CheckGapSelected()" vertex="1">
-          <mxGeometry height="35" width="210" x="80" y="487" as="geometry" />
+          <mxGeometry height="35" width="210" x="110" y="488" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
