@@ -1,14 +1,90 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0" version="29.6.0">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0">
   <diagram name="Page-1" id="y0jycjd2s2I7HYO3h93X">
-    <mxGraphModel dx="1025" dy="514" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1188" dy="728" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="5Xg-GdXJpJbwoSaOYfID-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="见识世界" vertex="1">
-          <mxGeometry height="350" width="420" x="50" y="40" as="geometry" />
+        <mxCell id="jDHkmLkjwDI_RitkqdCp-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="IPD" vertex="1">
+          <mxGeometry height="40" width="80" x="260" y="60" as="geometry" />
         </mxCell>
-        <mxCell id="5Xg-GdXJpJbwoSaOYfID-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="1.和HJ来一场为期一周的旅游" vertex="1">
-          <mxGeometry height="60" width="170" x="80" y="170" as="geometry" />
+        <mxCell id="jDHkmLkjwDI_RitkqdCp-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="TSP" vertex="1">
+          <mxGeometry height="40" width="80" x="590" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jDHkmLkjwDI_RitkqdCp-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="SAIC TLS代理" vertex="1">
+          <mxGeometry height="40" width="100" x="420" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jDHkmLkjwDI_RitkqdCp-8" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="jDHkmLkjwDI_RitkqdCp-1" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="300" y="420" as="sourcePoint" />
+            <mxPoint x="360" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jDHkmLkjwDI_RitkqdCp-9" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="469.58000000000004" y="420" as="sourcePoint" />
+            <mxPoint x="469.58000000000004" y="100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jDHkmLkjwDI_RitkqdCp-10" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="629.58" y="420" as="sourcePoint" />
+            <mxPoint x="629.58" y="100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jDHkmLkjwDI_RitkqdCp-11" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="300" y="170" as="sourcePoint" />
+            <mxPoint x="630" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jDHkmLkjwDI_RitkqdCp-12" connectable="0" parent="jDHkmLkjwDI_RitkqdCp-11" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="send OSS Authority Request" vertex="1">
+          <mxGeometry relative="1" x="-0.4879" y="-1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jDHkmLkjwDI_RitkqdCp-13" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="630" y="220" as="sourcePoint" />
+            <mxPoint x="470" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jDHkmLkjwDI_RitkqdCp-14" connectable="0" parent="jDHkmLkjwDI_RitkqdCp-13" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Response Sts" vertex="1">
+          <mxGeometry relative="1" x="0.1937" y="2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jDHkmLkjwDI_RitkqdCp-15" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="470" y="220" as="sourcePoint" />
+            <mxPoint x="300" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jDHkmLkjwDI_RitkqdCp-16" connectable="0" parent="jDHkmLkjwDI_RitkqdCp-15" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Encrpted Response Sts" vertex="1">
+          <mxGeometry relative="1" x="0.1937" y="2" as="geometry">
+            <mxPoint x="12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jDHkmLkjwDI_RitkqdCp-17" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="300" y="270" as="sourcePoint" />
+            <mxPoint x="630" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jDHkmLkjwDI_RitkqdCp-18" connectable="0" parent="jDHkmLkjwDI_RitkqdCp-17" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Depend on Sts and URL, upload files" vertex="1">
+          <mxGeometry relative="1" x="-0.7101" y="1" as="geometry">
+            <mxPoint x="53" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jDHkmLkjwDI_RitkqdCp-19" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="630" y="320" as="sourcePoint" />
+            <mxPoint x="300" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jDHkmLkjwDI_RitkqdCp-20" connectable="0" parent="jDHkmLkjwDI_RitkqdCp-19" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Return 200/ error code" vertex="1">
+          <mxGeometry relative="1" x="-0.2141" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
