@@ -364,7 +364,7 @@
             <mxPoint x="290" y="1770" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="jDHkmLkjwDI_RitkqdCp-100" connectable="0" parent="jDHkmLkjwDI_RitkqdCp-99" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Return 200/ error code" vertex="1">
+        <mxCell id="jDHkmLkjwDI_RitkqdCp-100" connectable="0" parent="jDHkmLkjwDI_RitkqdCp-99" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="15. Return 200/ error code" vertex="1">
           <mxGeometry relative="1" x="-0.2141" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
