@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0">
   <diagram name="Page-1" id="y0jycjd2s2I7HYO3h93X">
-    <mxGraphModel dx="1188" dy="728" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1047" dy="647" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -34,12 +34,12 @@
         <mxCell id="jDHkmLkjwDI_RitkqdCp-11" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
             <mxPoint x="300" y="170" as="sourcePoint" />
-            <mxPoint x="630" y="170" as="targetPoint" />
+            <mxPoint x="470" y="170" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="jDHkmLkjwDI_RitkqdCp-12" connectable="0" parent="jDHkmLkjwDI_RitkqdCp-11" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="send OSS Authority Request" vertex="1">
+        <mxCell id="jDHkmLkjwDI_RitkqdCp-12" connectable="0" parent="jDHkmLkjwDI_RitkqdCp-11" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="send OSS&amp;nbsp;&lt;div&gt;Authority Request&lt;/div&gt;" vertex="1">
           <mxGeometry relative="1" x="-0.4879" y="-1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint x="26" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="jDHkmLkjwDI_RitkqdCp-13" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
@@ -48,9 +48,9 @@
             <mxPoint x="470" y="220" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="jDHkmLkjwDI_RitkqdCp-14" connectable="0" parent="jDHkmLkjwDI_RitkqdCp-13" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Response Sts" vertex="1">
+        <mxCell id="jDHkmLkjwDI_RitkqdCp-14" connectable="0" parent="jDHkmLkjwDI_RitkqdCp-13" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Response Sts with Url" vertex="1">
           <mxGeometry relative="1" x="0.1937" y="2" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint x="6" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="jDHkmLkjwDI_RitkqdCp-15" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
@@ -367,6 +367,17 @@
         <mxCell id="jDHkmLkjwDI_RitkqdCp-100" connectable="0" parent="jDHkmLkjwDI_RitkqdCp-99" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="15. Return 200/ error code" vertex="1">
           <mxGeometry relative="1" x="-0.2141" as="geometry">
             <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="A32IwWlfN-4qcons8p_H-2" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="470" y="170" as="sourcePoint" />
+            <mxPoint x="630" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="A32IwWlfN-4qcons8p_H-3" connectable="0" parent="A32IwWlfN-4qcons8p_H-2" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Decrypt the Request Header&amp;nbsp;" vertex="1">
+          <mxGeometry relative="1" x="-0.4879" y="-1" as="geometry">
+            <mxPoint x="39" as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
