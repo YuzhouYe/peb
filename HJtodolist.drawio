@@ -136,8 +136,8 @@
         </mxCell>
         <mxCell id="jDHkmLkjwDI_RitkqdCp-41" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="290" y="1420" as="sourcePoint" />
-            <mxPoint x="460" y="1420" as="targetPoint" />
+            <mxPoint x="293" y="1420" as="sourcePoint" />
+            <mxPoint x="453" y="1420" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="jDHkmLkjwDI_RitkqdCp-69" connectable="0" parent="jDHkmLkjwDI_RitkqdCp-41" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="4. Call FTLS_connect to&amp;nbsp;&lt;div&gt;TLS handshake&lt;/div&gt;" vertex="1">
