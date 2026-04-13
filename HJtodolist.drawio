@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0">
   <diagram name="Page-1" id="y0jycjd2s2I7HYO3h93X">
-    <mxGraphModel dx="1088" dy="672" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1186" dy="728" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -503,6 +503,9 @@
         </mxCell>
         <mxCell id="A32IwWlfN-4qcons8p_H-56" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;white-space-collapse: preserve;&quot;&gt;eMMC&lt;/span&gt;" vertex="1">
           <mxGeometry height="35" width="95" x="722.5" y="2650" as="geometry" />
+        </mxCell>
+        <mxCell id="uHZvcnnEZ-hBTuqNajPK-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="log fiile" vertex="1">
+          <mxGeometry height="40" width="90" x="270" y="2790" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
