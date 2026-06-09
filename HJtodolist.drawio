@@ -887,7 +887,7 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="KVI9mxiz665Hcn5mNcnV-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="DCU-J6B&lt;div&gt;(HTTP Client)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+        <mxCell id="KVI9mxiz665Hcn5mNcnV-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="SCAM-J6B&lt;div&gt;(HTTP Client)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="560" width="170" x="450" y="110" as="geometry" />
         </mxCell>
         <mxCell id="KVI9mxiz665Hcn5mNcnV-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="ICM&lt;div&gt;(HTTP Server + SOME/IP Client)&lt;/div&gt;" vertex="1">
@@ -1010,8 +1010,8 @@
         <mxCell id="Tz0xJBvTQVNdjNNo2n2i-33" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="31 03 E2 04:&lt;div&gt;传输状态：&lt;/div&gt;&lt;div&gt;fail/success/running&lt;/div&gt;&lt;div&gt;传输进度：&lt;/div&gt;&lt;div&gt;0%-100%&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="130" width="120" x="1060" y="280" as="geometry" />
         </mxCell>
-        <mxCell id="7oegmAGW3AKUlGvwBkhu-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="1.读取完如何收到上位机删除指令&lt;div&gt;2.读完是否要重新上电&lt;/div&gt;&lt;div&gt;3. 多个文件是否压缩上传&lt;/div&gt;&lt;div&gt;4.多个文件是否分片上传&lt;/div&gt;" vertex="1">
-          <mxGeometry height="110" width="260" x="1060" y="460" as="geometry" />
+        <mxCell id="7oegmAGW3AKUlGvwBkhu-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="1.读取完如何收到上位机删除指令&lt;div&gt;上位机确认删除，FVCM新增routine删除&lt;br&gt;&lt;div&gt;2.读完是否要重新上电&lt;/div&gt;&lt;div&gt;删除完后可以重新上电，新增sequence实现&lt;/div&gt;&lt;div&gt;3. 多个文件是否压缩上传&lt;/div&gt;&lt;div&gt;确认压缩上传&lt;/div&gt;&lt;/div&gt;&lt;div&gt;4. HTTP请求头定义 @xiaofei&lt;/div&gt;" vertex="1">
+          <mxGeometry height="140" width="260" x="1050" y="460" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
