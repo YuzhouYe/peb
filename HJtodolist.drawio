@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0" pages="4">
   <diagram name="Page-1" id="y0jycjd2s2I7HYO3h93X">
-    <mxGraphModel dx="1285" dy="795" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1186" dy="742" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -147,8 +147,8 @@
         </mxCell>
         <mxCell id="jDHkmLkjwDI_RitkqdCp-42" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="464" y="1550" as="sourcePoint" />
-            <mxPoint x="294" y="1550" as="targetPoint" />
+            <mxPoint x="464" y="1588" as="sourcePoint" />
+            <mxPoint x="294" y="1588" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="jDHkmLkjwDI_RitkqdCp-83" connectable="0" parent="jDHkmLkjwDI_RitkqdCp-42" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="8. TLS handshake complete" vertex="1">
@@ -158,8 +158,8 @@
         </mxCell>
         <mxCell id="jDHkmLkjwDI_RitkqdCp-43" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="290" y="1600" as="sourcePoint" />
-            <mxPoint x="460" y="1600" as="targetPoint" />
+            <mxPoint x="290" y="1626" as="sourcePoint" />
+            <mxPoint x="460" y="1626" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="jDHkmLkjwDI_RitkqdCp-86" connectable="0" parent="jDHkmLkjwDI_RitkqdCp-43" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="9. Call FTLS_write to send&amp;nbsp;&lt;div&gt;HTTP Request&lt;/div&gt;&lt;div&gt;(Headers + Request Body)&lt;/div&gt;" vertex="1">
@@ -241,12 +241,12 @@
         <mxCell id="jDHkmLkjwDI_RitkqdCp-62" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="180" y="1460" />
-              <mxPoint x="180" y="1510" />
-              <mxPoint x="120" y="1510" />
+              <mxPoint x="178.67" y="1500" />
+              <mxPoint x="178.67" y="1550" />
+              <mxPoint x="118.67" y="1550" />
             </Array>
-            <mxPoint x="120" y="1460" as="sourcePoint" />
-            <mxPoint x="120" y="1510" as="targetPoint" />
+            <mxPoint x="118.67" y="1500" as="sourcePoint" />
+            <mxPoint x="118.67" y="1550" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="jDHkmLkjwDI_RitkqdCp-76" connectable="0" parent="jDHkmLkjwDI_RitkqdCp-62" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="6. Process Certificate Response&lt;div&gt;(VssSomeIPMsgProcess)&lt;/div&gt;" vertex="1">
@@ -277,26 +277,26 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="jDHkmLkjwDI_RitkqdCp-70" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
-          <mxGeometry height="130" width="10" x="284" y="1420" as="geometry" />
+          <mxGeometry height="180" width="10" x="284" y="1420" as="geometry" />
         </mxCell>
         <mxCell id="jDHkmLkjwDI_RitkqdCp-72" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
-          <mxGeometry height="130" width="10" x="454" y="1420" as="geometry" />
+          <mxGeometry height="180" width="10" x="454" y="1420" as="geometry" />
         </mxCell>
-        <mxCell id="jDHkmLkjwDI_RitkqdCp-73" edge="1" parent="1" source="jDHkmLkjwDI_RitkqdCp-70" style="endArrow=classic;html=1;rounded=0;exitX=0.133;exitY=0.095;exitDx=0;exitDy=0;exitPerimeter=0;" value="">
+        <mxCell id="jDHkmLkjwDI_RitkqdCp-73" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;exitX=0.133;exitY=0.095;exitDx=0;exitDy=0;exitPerimeter=0;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="280" y="1430" as="sourcePoint" />
-            <mxPoint x="120" y="1430" as="targetPoint" />
+            <mxPoint x="283.99999999999994" y="1477.1" as="sourcePoint" />
+            <mxPoint x="118.67" y="1470" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="jDHkmLkjwDI_RitkqdCp-74" connectable="0" parent="jDHkmLkjwDI_RitkqdCp-73" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="5. Send a SomeIP&amp;nbsp;&lt;div&gt;Certificatie&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;Service request&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;(SFCERT_SAICTLSReq)&amp;nbsp;&lt;/span&gt;&lt;/div&gt;" vertex="1">
+        <mxCell id="jDHkmLkjwDI_RitkqdCp-74" connectable="0" parent="jDHkmLkjwDI_RitkqdCp-73" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="5.2 Send a SomeIP&amp;nbsp;&lt;div&gt;Certificatie&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;Service request&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;(SFCERT_SAICTLSReq)&amp;nbsp;&lt;/span&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry relative="1" x="0.3105" y="1" as="geometry">
             <mxPoint x="23" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="jDHkmLkjwDI_RitkqdCp-77" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="460" y="1680" as="sourcePoint" />
-            <mxPoint x="290" y="1680" as="targetPoint" />
+            <mxPoint x="460" y="1706" as="sourcePoint" />
+            <mxPoint x="290" y="1706" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="jDHkmLkjwDI_RitkqdCp-94" connectable="0" parent="jDHkmLkjwDI_RitkqdCp-77" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="13. Call &quot;FTLS_read&quot; to&amp;nbsp;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Obtain the&amp;nbsp;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;encrypted Response Body&amp;nbsp;&lt;/span&gt;&lt;/div&gt;" vertex="1">
@@ -306,8 +306,8 @@
         </mxCell>
         <mxCell id="jDHkmLkjwDI_RitkqdCp-78" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="454" y="1600" as="sourcePoint" />
-            <mxPoint x="640" y="1600" as="targetPoint" />
+            <mxPoint x="454" y="1626" as="sourcePoint" />
+            <mxPoint x="640" y="1626" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="jDHkmLkjwDI_RitkqdCp-90" connectable="0" parent="jDHkmLkjwDI_RitkqdCp-78" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&lt;div&gt;10. Decrypt and forward&lt;/div&gt;&lt;div&gt;the plaintext HTTP to the TSP&lt;/div&gt;" vertex="1">
@@ -317,8 +317,8 @@
         </mxCell>
         <mxCell id="jDHkmLkjwDI_RitkqdCp-80" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="120" y="1540" as="sourcePoint" />
-            <mxPoint x="280" y="1540" as="targetPoint" />
+            <mxPoint x="118.67" y="1580" as="sourcePoint" />
+            <mxPoint x="278.67" y="1580" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="jDHkmLkjwDI_RitkqdCp-81" connectable="0" parent="jDHkmLkjwDI_RitkqdCp-80" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="7. Return the certificate&lt;div&gt;&amp;nbsp;response&amp;nbsp;&lt;/div&gt;&lt;div&gt;(SFCERT_SAICTLSResp)&lt;/div&gt;" vertex="1">
@@ -328,8 +328,8 @@
         </mxCell>
         <mxCell id="jDHkmLkjwDI_RitkqdCp-88" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="640" y="1680" as="sourcePoint" />
-            <mxPoint x="460" y="1680" as="targetPoint" />
+            <mxPoint x="640" y="1706" as="sourcePoint" />
+            <mxPoint x="460" y="1706" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="jDHkmLkjwDI_RitkqdCp-93" connectable="0" parent="jDHkmLkjwDI_RitkqdCp-88" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="12. HTTP Response Body&lt;div&gt;Transfer to TLS Proxy&amp;nbsp;&lt;/div&gt;" vertex="1">
@@ -340,12 +340,12 @@
         <mxCell id="jDHkmLkjwDI_RitkqdCp-91" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="700.5" y="1620" />
-              <mxPoint x="700.5" y="1660" />
-              <mxPoint x="640.5" y="1660" />
+              <mxPoint x="700.5" y="1646" />
+              <mxPoint x="700.5" y="1686" />
+              <mxPoint x="640.5" y="1686" />
             </Array>
-            <mxPoint x="640" y="1620" as="sourcePoint" />
-            <mxPoint x="640.5" y="1660" as="targetPoint" />
+            <mxPoint x="640" y="1646" as="sourcePoint" />
+            <mxPoint x="640.5" y="1686" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="jDHkmLkjwDI_RitkqdCp-92" connectable="0" parent="jDHkmLkjwDI_RitkqdCp-91" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="11. TSP Process Request" vertex="1">
@@ -355,8 +355,8 @@
         </mxCell>
         <mxCell id="jDHkmLkjwDI_RitkqdCp-95" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="290" y="1730" as="sourcePoint" />
-            <mxPoint x="640" y="1730" as="targetPoint" />
+            <mxPoint x="290" y="1756" as="sourcePoint" />
+            <mxPoint x="640" y="1756" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="jDHkmLkjwDI_RitkqdCp-96" connectable="0" parent="jDHkmLkjwDI_RitkqdCp-95" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="14. Depend on Sts and URL,&lt;div&gt;&amp;nbsp;upload files&lt;/div&gt;&lt;div&gt;(FTLS_write)&lt;/div&gt;" vertex="1">
@@ -366,8 +366,8 @@
         </mxCell>
         <mxCell id="jDHkmLkjwDI_RitkqdCp-99" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="640" y="1770" as="sourcePoint" />
-            <mxPoint x="290" y="1770" as="targetPoint" />
+            <mxPoint x="640" y="1796" as="sourcePoint" />
+            <mxPoint x="290" y="1796" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="jDHkmLkjwDI_RitkqdCp-100" connectable="0" parent="jDHkmLkjwDI_RitkqdCp-99" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="15. Return 200/ error code" vertex="1">
@@ -503,6 +503,17 @@
         </mxCell>
         <mxCell id="A32IwWlfN-4qcons8p_H-56" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;white-space-collapse: preserve;&quot;&gt;eMMC&lt;/span&gt;" vertex="1">
           <mxGeometry height="35" width="95" x="722.5" y="2650" as="geometry" />
+        </mxCell>
+        <mxCell id="XsmTq0b-pe54ZjTXkMCy-1" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="120" y="1440" as="sourcePoint" />
+            <mxPoint x="280" y="1440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XsmTq0b-pe54ZjTXkMCy-2" connectable="0" parent="XsmTq0b-pe54ZjTXkMCy-1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" value="5.1 SomeIP find Service" vertex="1">
+          <mxGeometry relative="1" x="-0.1327" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
@@ -1023,7 +1034,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="BtyI7PwNInOFQI82xb-M" name="Page-4">
-    <mxGraphModel dx="2191" dy="838" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
