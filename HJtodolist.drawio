@@ -1078,6 +1078,9 @@
         <mxCell id="YgvWwtONHSpxQmmuCyym-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="压缩EDR文件为.zip&lt;div&gt;生成压缩包的MD5值&lt;/div&gt;" vertex="1">
           <mxGeometry height="40" width="150" x="920" y="70" as="geometry" />
         </mxCell>
+        <mxCell id="_MyXVXH9b_49LIH4zOSy-52" edge="1" parent="1" source="YgvWwtONHSpxQmmuCyym-4" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" target="SMY4f-l2o5NnY6ykW_98-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="YgvWwtONHSpxQmmuCyym-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="HTTP Post&lt;div&gt;Request header + URL Body&lt;/div&gt;" vertex="1">
           <mxGeometry height="40" width="160" x="1130" y="140" as="geometry" />
         </mxCell>
