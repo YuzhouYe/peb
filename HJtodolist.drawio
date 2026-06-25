@@ -1322,7 +1322,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="BtyI7PwNInOFQI82xb-M" name="Page-4">
-    <mxGraphModel dx="2197" dy="850" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2319" dy="918" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1455,10 +1455,10 @@
           <mxGeometry height="40" width="150" x="625" y="280" as="geometry" />
         </mxCell>
         <mxCell id="_MyXVXH9b_49LIH4zOSy-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;span data-teams=&quot;true&quot;&gt;URL: &amp;nbsp;&lt;a aria-label=&quot;链接 http://192.168.225.20:8080/data/upload&quot; id=&quot;menur2vp&quot; href=&quot;http://192.168.225.20:8080/data/upload&quot; rel=&quot;noreferrer noopener&quot; target=&quot;_blank&quot; class=&quot;fui-Link ___1q1shib f2hkw1w f3rmtva f1ewtqcl fyind8e f1k6fduh f1w7gpdv fk6fouc fjoy568 figsok6 f1s184ao f1mk8lai fnbmjn9 f1o700av f13mvf36 f1cmlufx f9n3di6 f1ids18y f1tx3yz7 f1deo86v f1eh06m1 f1iescvh fhgqx19 f1olyrje f1p93eir f1nev41a f1h8hb77 f1lqvz6u f10aw75t fsle3fq f17ae5zn&quot; title=&quot;http://192.168.225.20:8080/data/upload&quot;&gt;http://192.168.225.20:8080/data/upload&lt;/a&gt;&lt;/span&gt;" vertex="1">
-          <mxGeometry height="60" width="350" x="270" y="830" as="geometry" />
+          <mxGeometry height="60" width="350" x="290" y="1030" as="geometry" />
         </mxCell>
         <mxCell id="_MyXVXH9b_49LIH4zOSy-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="200 成功&lt;div&gt;206 部分成功&lt;/div&gt;&lt;div&gt;400 参数错误&lt;/div&gt;&lt;div&gt;404 URL错误&lt;/div&gt;&lt;div&gt;408 超时&lt;/div&gt;&lt;div&gt;413 文件过大&lt;/div&gt;&lt;div&gt;500 服务异常&lt;/div&gt;&lt;div&gt;503 上位机正忙&lt;/div&gt;" vertex="1">
-          <mxGeometry height="140" width="350" x="270" y="670" as="geometry" />
+          <mxGeometry height="140" width="350" x="290" y="870" as="geometry" />
         </mxCell>
         <mxCell id="GbNJZF1K8aVaRK_88-ic-1" edge="1" parent="1" source="_MyXVXH9b_49LIH4zOSy-10" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" target="rUenOoPzikKfjbMXHjL--13">
           <mxGeometry relative="1" as="geometry" />
@@ -1467,10 +1467,10 @@
           <mxGeometry height="40" width="150" x="625" y="430" as="geometry" />
         </mxCell>
         <mxCell id="_MyXVXH9b_49LIH4zOSy-13" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="F199 安全状态：&lt;div&gt;按照BITWISE来&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="180" width="230" x="330" y="910" as="geometry" />
+          <mxGeometry height="180" width="230" x="350" y="1110" as="geometry" />
         </mxCell>
         <mxCell id="_MyXVXH9b_49LIH4zOSy-21" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="71 03 FE 10 01 SUCCESS&lt;div&gt;71 03 FE 10 02 Fail&lt;/div&gt;" vertex="1">
-          <mxGeometry height="60" width="120" x="720" y="700" as="geometry" />
+          <mxGeometry height="60" width="120" x="740" y="900" as="geometry" />
         </mxCell>
         <mxCell id="_MyXVXH9b_49LIH4zOSy-24" edge="1" parent="1" source="_MyXVXH9b_49LIH4zOSy-22" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" target="_MyXVXH9b_49LIH4zOSy-10">
           <mxGeometry relative="1" as="geometry" />
@@ -1479,13 +1479,13 @@
           <mxGeometry height="40" width="150" x="625" y="350" as="geometry" />
         </mxCell>
         <mxCell id="_MyXVXH9b_49LIH4zOSy-25" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="71 03 FE 07 00&lt;div&gt;success&lt;/div&gt;&lt;div&gt;71 03 FE 07 01&lt;/div&gt;&lt;div&gt;bitwise&lt;/div&gt;" vertex="1">
-          <mxGeometry height="60" width="120" x="720" y="800" as="geometry" />
+          <mxGeometry height="60" width="120" x="740" y="1000" as="geometry" />
         </mxCell>
         <mxCell id="_MyXVXH9b_49LIH4zOSy-26" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="检查文件JSON文件的数量" vertex="1">
           <mxGeometry height="40" width="150" x="920" y="360" as="geometry" />
         </mxCell>
         <mxCell id="_MyXVXH9b_49LIH4zOSy-29" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="71 03 E2 06 00&lt;div&gt;success&lt;/div&gt;&lt;div&gt;71 03 E2 06 01&lt;/div&gt;&lt;div&gt;FAIL&lt;/div&gt;" vertex="1">
-          <mxGeometry height="60" width="120" x="720" y="898" as="geometry" />
+          <mxGeometry height="60" width="120" x="740" y="1098" as="geometry" />
         </mxCell>
         <mxCell id="_MyXVXH9b_49LIH4zOSy-41" edge="1" parent="1" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" target="cMQsq0OfMaq-W4aKispi-6">
           <mxGeometry relative="1" as="geometry">
@@ -1503,6 +1503,12 @@
         </mxCell>
         <mxCell id="VlB92psOf5gwHfzd9PWo-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="" vertex="1">
           <mxGeometry height="60" width="130" x="170" y="1300" as="geometry" />
+        </mxCell>
+        <mxCell id="GbNJZF1K8aVaRK_88-ic-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="HTTP Post参数加入&lt;div&gt;文件大小&lt;/div&gt;&lt;div&gt;MD5&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="1330" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="GbNJZF1K8aVaRK_88-ic-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="传输进度反馈&lt;div&gt;&lt;div style=&quot;font-size: 11px; white-space: nowrap;&quot;&gt;71 03 E2 04 XX &lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;YY&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 11px; white-space: nowrap;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;不再考虑进度，只要是否成功&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 11px; white-space: nowrap;&quot;&gt;加入超时逻辑：&lt;/div&gt;&lt;div style=&quot;font-size: 11px; white-space: nowrap;&quot;&gt;300s 回NRC&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="270" x="1120" y="320" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
