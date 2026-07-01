@@ -1540,7 +1540,7 @@
         <mxCell id="AlzfUHexxdUDmNPDUXpS-59" edge="1" parent="1" source="AlzfUHexxdUDmNPDUXpS-20" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=12;startSize=8;endSize=8;" target="AlzfUHexxdUDmNPDUXpS-53">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="AlzfUHexxdUDmNPDUXpS-20" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="选择需要下载的文件" vertex="1">
+        <mxCell id="AlzfUHexxdUDmNPDUXpS-20" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="获取EDR文件夹中的所有文件" vertex="1">
           <mxGeometry height="40" width="160" x="840" y="950" as="geometry" />
         </mxCell>
         <mxCell id="AlzfUHexxdUDmNPDUXpS-36" edge="1" parent="1" source="AlzfUHexxdUDmNPDUXpS-37" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" target="AlzfUHexxdUDmNPDUXpS-42">
