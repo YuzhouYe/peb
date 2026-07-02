@@ -1322,7 +1322,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="BtyI7PwNInOFQI82xb-M" name="Page-4">
-    <mxGraphModel dx="2338" dy="939" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2197" dy="850" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1578,7 +1578,7 @@
         <mxCell id="AlzfUHexxdUDmNPDUXpS-68" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Delete EDR File in ECU" vertex="1">
           <mxGeometry height="40" width="160" x="840" y="1160" as="geometry" />
         </mxCell>
-        <mxCell id="AlzfUHexxdUDmNPDUXpS-75" edge="1" parent="1" source="AlzfUHexxdUDmNPDUXpS-70" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;">
+        <mxCell id="AlzfUHexxdUDmNPDUXpS-75" edge="1" parent="1" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="920" y="1300" as="targetPoint" />
           </mxGeometry>
@@ -1610,6 +1610,9 @@
         </mxCell>
         <mxCell id="AlzfUHexxdUDmNPDUXpS-83" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="0x22&lt;div&gt;读取DID B932当前值&lt;/div&gt;&lt;div&gt;确认SSH关闭&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="150" x="845" y="1330" as="geometry" />
+        </mxCell>
+        <mxCell id="9-JR0yeHYl4ytbperNPZ-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;align=center;" value="关闭EDR功能" vertex="1">
+          <mxGeometry height="60" width="150" x="545" y="1400" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
