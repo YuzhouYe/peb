@@ -1708,7 +1708,7 @@
           <mxGeometry height="50" width="150" x="772.5" y="160" as="geometry" />
         </mxCell>
         <mxCell id="I2Y7gueiN8rMN5ss6Nt6-13" parent="Vh8a0wsicUO-C83f7WO4-1" style="rounded=0;whiteSpace=wrap;html=1;" value="01 指的是最近的第一个文件名" vertex="1">
-          <mxGeometry height="60" width="120" x="50" y="270" as="geometry" />
+          <mxGeometry height="60" width="120" x="60" y="270" as="geometry" />
         </mxCell>
         <mxCell id="I2Y7gueiN8rMN5ss6Nt6-14" parent="Vh8a0wsicUO-C83f7WO4-1" style="rounded=0;whiteSpace=wrap;html=1;" value="2026052820260530&lt;div&gt;指的是整合这个时间段内的所有时间戳事件&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="140" x="50" y="180" as="geometry" />
